@@ -1,0 +1,25 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# U-USBAS04P-F000
+#
+DEF U-USBAS04P-F000 USB 0 40 Y Y 1 F N
+F0 "USB" 0 403 50 H V C CNN
+F1 "U-USBAS04P-F000" 0 603 50 H V C CNN
+F2 "kicad_lceda:USB-A-TH_U-A-24DD-Y-2" 0 203 50 H I C CNN
+F3 "http://www.szlcsc.com/product/details_360842.html" 0 3 50 H I C CNN
+F4 "C386735" 0 -197 50 H I C CNN "SuppliersPartNumber"
+F5 "std:7c4e052594dd4972b9e48234767a1e50" 0 -197 50 H I C CNN "uuid"
+DRAW
+S 0 300 300 -200 1 1 6 N
+X VCC 1 -200 200 200 R 50 50 1 1 I 
+X D- 2 -200 100 200 R 50 50 1 1 I 
+X D+ 3 -200 0 200 R 50 50 1 1 I 
+X GND 4 -200 -100 200 R 50 50 1 1 I 
+X 5 5 400 -100 100 L 50 50 1 1 I 
+X 6 6 400 0 100 L 50 50 1 1 I 
+ENDDRAW
+ENDDEF
+
+#
+#End Library

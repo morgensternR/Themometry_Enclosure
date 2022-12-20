@@ -1,0 +1,2583 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>C:\Users\rdm8\Documents\GitHub\Themometry_Enclosure\Thermometry_Enclosure\Thermometry_Enclosure.kicad_sch</source>
+    <date>12/19/2022 4:40:42 PM</date>
+    <tool>Eeschema (6.0.5)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>Thermometry_Enclosure.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/HDMI Ports/" tstamps="/1177b381-35f4-4300-ae70-b7e5fb7ae7dc/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>HDMI_ports.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="3" name="/i2c_Bus/" tstamps="/e1c53e96-b1e0-4793-8b3a-56a452783469/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>I2C_Bus.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="D1">
+      <value>SS3150_SMB</value>
+      <footprint>0Library:SMB_L4.6-W3.6-LS5.3-R-RD</footprint>
+      <fields>
+        <field name="LCSC">C47124</field>
+      </fields>
+      <libsource lib="pspice" part="DIODE" description="Diode symbol for simulation only. Pin order incompatible with official kicad footprints"/>
+      <property name="LCSC" value="C47124"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Thermometry_Enclosure.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a32ad2b9-8fdc-4f29-819c-6ec5d3e06fd5</tstamps>
+    </comp>
+    <comp ref="D2">
+      <value>SS3150_SMB</value>
+      <footprint>0Library:SMB_L4.6-W3.6-LS5.3-R-RD</footprint>
+      <fields>
+        <field name="LCSC">C47124</field>
+      </fields>
+      <libsource lib="pspice" part="DIODE" description="Diode symbol for simulation only. Pin order incompatible with official kicad footprints"/>
+      <property name="LCSC" value="C47124"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Thermometry_Enclosure.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f5e5e647-3ceb-4d4a-91f9-a27b7b39df28</tstamps>
+    </comp>
+    <comp ref="D3">
+      <value>SS3150_SMB</value>
+      <footprint>0Library:SMB_L4.6-W3.6-LS5.3-R-RD</footprint>
+      <fields>
+        <field name="LCSC">C47124</field>
+      </fields>
+      <libsource lib="pspice" part="DIODE" description="Diode symbol for simulation only. Pin order incompatible with official kicad footprints"/>
+      <property name="LCSC" value="C47124"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Thermometry_Enclosure.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>149be101-4f92-4757-a6a8-c5ffab189ec4</tstamps>
+    </comp>
+    <comp ref="DC1">
+      <value>DC-044K-D025</value>
+      <footprint>0Library:DC-IN-TH_DC-044K-D025</footprint>
+      <fields>
+        <field name="LCSC">C963204</field>
+        <field name="uuid">std:3cea2f154e624d63bd8d608b96c28964</field>
+      </fields>
+      <libsource lib="0Therm_Enclosure" part="DC-044K-D025" description=""/>
+      <property name="LCSC" value="C963204"/>
+      <property name="uuid" value="std:3cea2f154e624d63bd8d608b96c28964"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Thermometry_Enclosure.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>99509b27-2884-48aa-bb53-f9b2b3063764</tstamps>
+    </comp>
+    <comp ref="H1">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3_Pad</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Thermometry_Enclosure.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ee261d43-3a3d-4abb-b11e-a208d6ee6e6f</tstamps>
+    </comp>
+    <comp ref="H2">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3_Pad</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Thermometry_Enclosure.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f915e6fd-1fca-47dc-a6be-0abd0d20a814</tstamps>
+    </comp>
+    <comp ref="H3">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3_Pad</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Thermometry_Enclosure.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>123a8371-0b73-4803-bd6d-513d1a1442b1</tstamps>
+    </comp>
+    <comp ref="H4">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3_Pad</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Thermometry_Enclosure.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>aac2072f-ab2f-48ed-9aed-904be3d20518</tstamps>
+    </comp>
+    <comp ref="H5">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3_Pad</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Thermometry_Enclosure.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c808d46a-ffcf-4c13-b2c5-d3205730c465</tstamps>
+    </comp>
+    <comp ref="H6">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3_Pad</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Thermometry_Enclosure.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fdf59b1c-5c4d-4435-98a0-e2dddb1eb32a</tstamps>
+    </comp>
+    <comp ref="H7">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3_Pad</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Thermometry_Enclosure.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1b28522f-8c8b-4de6-a05b-fe67cdad010a</tstamps>
+    </comp>
+    <comp ref="H8">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3_Pad</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Thermometry_Enclosure.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fe650315-f375-4b2e-b753-f4c464caeaeb</tstamps>
+    </comp>
+    <comp ref="H9">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_2.7mm_Pad</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Thermometry_Enclosure.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9431af1a-f3c2-4c0d-a3bd-61e58fd998ea</tstamps>
+    </comp>
+    <comp ref="H10">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_2.7mm_Pad</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Thermometry_Enclosure.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3228998e-4957-484e-ae12-ed487a895f01</tstamps>
+    </comp>
+    <comp ref="H11">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3_Pad</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Thermometry_Enclosure.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6699d491-f34d-463c-9295-eb4410925a27</tstamps>
+    </comp>
+    <comp ref="H12">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3_Pad</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Thermometry_Enclosure.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>dbd711b3-393e-4529-bd8f-d973082892b5</tstamps>
+    </comp>
+    <comp ref="H13">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3_Pad</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Thermometry_Enclosure.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0d6b9bdf-4b8f-4327-80f5-3b9893cde70b</tstamps>
+    </comp>
+    <comp ref="H14">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3_Pad</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Thermometry_Enclosure.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9219ba3c-772b-4e34-bd26-9e0a56abe61d</tstamps>
+    </comp>
+    <comp ref="H15">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_2.2mm_M2_Pad</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Thermometry_Enclosure.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5ea46c15-8b3a-4ea5-ab21-ec2941e03986</tstamps>
+    </comp>
+    <comp ref="H16">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_2.2mm_M2_Pad</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Thermometry_Enclosure.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5a7bca07-2bff-48c6-90f7-8437cb93b8e4</tstamps>
+    </comp>
+    <comp ref="H17">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_2.2mm_M2_Pad</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Thermometry_Enclosure.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>92a3cee8-2654-441a-9c6e-8fe8085b7b11</tstamps>
+    </comp>
+    <comp ref="H18">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_2.2mm_M2_Pad</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Thermometry_Enclosure.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9d98eb57-a976-4b5d-bce9-c3e92600baa0</tstamps>
+    </comp>
+    <comp ref="H19">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_2.7mm_M2.5_Pad</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Thermometry_Enclosure.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3f6c366d-aadf-4a9e-9c1e-fe410d72b44f</tstamps>
+    </comp>
+    <comp ref="H20">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_2.7mm_M2.5_Pad</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Thermometry_Enclosure.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0c1611a2-01c7-4441-8b26-1321b285cfb1</tstamps>
+    </comp>
+    <comp ref="H21">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_2.7mm_M2.5_Pad</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Thermometry_Enclosure.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>aa0b6bc7-2b2f-4262-8c03-873f80cf14aa</tstamps>
+    </comp>
+    <comp ref="H22">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_2.2mm_M2_Pad</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Thermometry_Enclosure.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c8ed4cda-b013-4525-b776-f1e791b9d59e</tstamps>
+    </comp>
+    <comp ref="H23">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_2.2mm_M2_Pad</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Thermometry_Enclosure.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0741c8b0-cfba-43cf-b1ad-7b6967c5ff4b</tstamps>
+    </comp>
+    <comp ref="H24">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_2.2mm_M2_Pad</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Thermometry_Enclosure.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>61efa3d6-3657-41bf-90d8-69e9ead627e0</tstamps>
+    </comp>
+    <comp ref="H25">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_2.2mm_M2_Pad</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Thermometry_Enclosure.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6f660d7b-4c13-4825-ad97-a5c3ae8df0eb</tstamps>
+    </comp>
+    <comp ref="H26">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_2.2mm_M2_Pad</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Thermometry_Enclosure.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1e11bf62-c388-4881-92c3-fb1298f66381</tstamps>
+    </comp>
+    <comp ref="H27">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_2.2mm_M2_Pad</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Thermometry_Enclosure.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>689290be-4de2-4b99-be2a-a23c25497f69</tstamps>
+    </comp>
+    <comp ref="H28">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_2.2mm_M2_Pad</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Thermometry_Enclosure.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9de840c8-3103-4bba-bb37-d89dc86084f5</tstamps>
+    </comp>
+    <comp ref="H29">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_2.2mm_M2_Pad</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Thermometry_Enclosure.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>576cb501-d040-4891-8823-98d6dcbc6446</tstamps>
+    </comp>
+    <comp ref="H30">
+      <value>MountingHole_Pad</value>
+      <footprint>MountingHole:MountingHole_5.3mm_M5_Pad</footprint>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Thermometry_Enclosure.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f9209f16-4a61-476f-a121-72233c0b9c9e</tstamps>
+    </comp>
+    <comp ref="H31">
+      <value>MountingHole_Pad</value>
+      <footprint>MountingHole:MountingHole_5.3mm_M5_Pad</footprint>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Thermometry_Enclosure.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>865e2f6d-f7eb-4caf-aa9b-4d5768634454</tstamps>
+    </comp>
+    <comp ref="H32">
+      <value>MountingHole_Pad</value>
+      <footprint>MountingHole:MountingHole_5.3mm_M5_Pad</footprint>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Thermometry_Enclosure.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a0895baf-96ec-4b21-94aa-e6105977d79f</tstamps>
+    </comp>
+    <comp ref="H33">
+      <value>MountingHole_Pad</value>
+      <footprint>MountingHole:MountingHole_5.3mm_M5_Pad</footprint>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Thermometry_Enclosure.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e4019b2c-cd85-42c9-ac6e-5e828105f0ba</tstamps>
+    </comp>
+    <comp ref="H34">
+      <value>MountingHole_Pad</value>
+      <footprint>MountingHole:MountingHole_5.3mm_M5_Pad</footprint>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Thermometry_Enclosure.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b2f33878-cfe9-4fb2-8be6-ef20233ff8d8</tstamps>
+    </comp>
+    <comp ref="H35">
+      <value>MountingHole_Pad</value>
+      <footprint>MountingHole:MountingHole_5.3mm_M5_Pad</footprint>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Thermometry_Enclosure.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fecf5b26-3428-4031-afe5-1a1384e9450f</tstamps>
+    </comp>
+    <comp ref="H36">
+      <value>MountingHole_Pad</value>
+      <footprint>MountingHole:MountingHole_5.3mm_M5_Pad</footprint>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Thermometry_Enclosure.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>90044c56-c301-4a16-a4b0-11b5e37271d5</tstamps>
+    </comp>
+    <comp ref="H37">
+      <value>MountingHole_Pad</value>
+      <footprint>MountingHole:MountingHole_5.3mm_M5_Pad</footprint>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Thermometry_Enclosure.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fbddf4f0-0d6a-441a-93a1-860d52802104</tstamps>
+    </comp>
+    <comp ref="H38">
+      <value>MountingHole_Pad</value>
+      <footprint>MountingHole:MountingHole_5.3mm_M5_Pad</footprint>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Thermometry_Enclosure.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8f0fd9c7-e7b1-4e9a-b0ba-f765e1082bfe</tstamps>
+    </comp>
+    <comp ref="H39">
+      <value>MountingHole_Pad</value>
+      <footprint>MountingHole:MountingHole_5.3mm_M5_Pad</footprint>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Thermometry_Enclosure.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e8e5e39f-037e-4773-b380-7c64b82fdfb8</tstamps>
+    </comp>
+    <comp ref="H40">
+      <value>MountingHole_Pad</value>
+      <footprint>MountingHole:MountingHole_5.3mm_M5_Pad</footprint>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Thermometry_Enclosure.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>eed020de-530c-4db0-bb07-6dfabf237970</tstamps>
+    </comp>
+    <comp ref="H41">
+      <value>MountingHole_Pad</value>
+      <footprint>MountingHole:MountingHole_6.5mm_Pad</footprint>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Thermometry_Enclosure.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e8baaded-7363-4df0-bc19-cb3bccebebf5</tstamps>
+    </comp>
+    <comp ref="J10">
+      <value>JST_SH_Conn_01x04_UART 1</value>
+      <footprint>Connector_JST:JST_SH_BM04B-SRSS-TB_1x04-1MP_P1.00mm_Vertical</footprint>
+      <fields>
+        <field name="LCSC">C160390</field>
+      </fields>
+      <libsource lib="0JLC" part="JST_SH_Conn_01x04_i2c_horizontal" description=""/>
+      <property name="LCSC" value="C160390"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Thermometry_Enclosure.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c0c186eb-9fce-4130-ae7b-b5cd8fe51419</tstamps>
+    </comp>
+    <comp ref="J11">
+      <value>JST_SH_Conn_01x04_MUX 1</value>
+      <footprint>Connector_JST:JST_SH_BM04B-SRSS-TB_1x04-1MP_P1.00mm_Vertical</footprint>
+      <fields>
+        <field name="LCSC">C160390</field>
+      </fields>
+      <libsource lib="0JLC" part="JST_SH_Conn_01x04_i2c_horizontal" description=""/>
+      <property name="LCSC" value="C160390"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Thermometry_Enclosure.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2c238a3c-1ac8-4566-b374-760c032b1120</tstamps>
+    </comp>
+    <comp ref="J12">
+      <value>JST_SH_Conn_01x04_UART 0</value>
+      <footprint>Connector_JST:JST_SH_BM04B-SRSS-TB_1x04-1MP_P1.00mm_Vertical</footprint>
+      <fields>
+        <field name="LCSC">C160390</field>
+      </fields>
+      <libsource lib="0JLC" part="JST_SH_Conn_01x04_i2c_horizontal" description=""/>
+      <property name="LCSC" value="C160390"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Thermometry_Enclosure.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6ed9b726-c836-4226-939c-5bbb3ac62cff</tstamps>
+    </comp>
+    <comp ref="J13">
+      <value>JST_SH_Conn_01x04_MUX 0</value>
+      <footprint>Connector_JST:JST_SH_BM04B-SRSS-TB_1x04-1MP_P1.00mm_Vertical</footprint>
+      <fields>
+        <field name="LCSC">C160390</field>
+      </fields>
+      <libsource lib="0JLC" part="JST_SH_Conn_01x04_i2c_horizontal" description=""/>
+      <property name="LCSC" value="C160390"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Thermometry_Enclosure.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1d54308d-8657-4587-88f4-87be2ecb978a</tstamps>
+    </comp>
+    <comp ref="J14">
+      <value>Conn_01x07_Female</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x07_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="LCSC">C124418</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x07_Female" description="Generic connector, single row, 01x07, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="LCSC" value="C124418"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Thermometry_Enclosure.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>90c3b3dc-3c25-4e0f-938b-53fde78d9b7e</tstamps>
+    </comp>
+    <comp ref="J15">
+      <value>Conn_01x07_Female</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x07_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="LCSC">C124418</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x07_Female" description="Generic connector, single row, 01x07, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="LCSC" value="C124418"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Thermometry_Enclosure.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e5ae2274-971d-43f3-a922-c0533a999d3d</tstamps>
+    </comp>
+    <comp ref="J47">
+      <value>Conn_01x02_Lockin 5V</value>
+      <footprint>Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical</footprint>
+      <fields>
+        <field name="LCSC">C2683610</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="LCSC" value="C2683610"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Thermometry_Enclosure.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b68dafea-c066-475b-9a12-44e201789f09</tstamps>
+    </comp>
+    <comp ref="J48">
+      <value>Conn_01x03</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x03" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Thermometry_Enclosure.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>42491de0-2628-4413-8529-0d5f484bafae</tstamps>
+    </comp>
+    <comp ref="J49">
+      <value>JST_SH_Conn_01x04_4K Diode</value>
+      <footprint>Connector_JST:JST_SH_BM04B-SRSS-TB_1x04-1MP_P1.00mm_Vertical</footprint>
+      <fields>
+        <field name="LCSC">C160390</field>
+      </fields>
+      <libsource lib="0JLC" part="JST_SH_Conn_01x04_i2c_horizontal" description=""/>
+      <property name="LCSC" value="C160390"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Thermometry_Enclosure.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a8f286fd-10dc-4c82-a926-de74465aa96b</tstamps>
+    </comp>
+    <comp ref="J50">
+      <value>Conn_01x02_Female_HP1</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="LCSC">C49661</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x02_Female" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="LCSC" value="C49661"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Thermometry_Enclosure.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ce06664a-ae9d-4624-a91d-0aee9b6c5dd2</tstamps>
+    </comp>
+    <comp ref="J51">
+      <value>Conn_01x02_Female_HP2</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="LCSC">C49661</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x02_Female" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="LCSC" value="C49661"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Thermometry_Enclosure.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2aed7fc9-5f33-4ddb-beed-bf36f18b30c5</tstamps>
+    </comp>
+    <comp ref="J52">
+      <value>Conn_01x02_Female_HP3</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="LCSC">C49661</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x02_Female" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="LCSC" value="C49661"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Thermometry_Enclosure.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5df2fca2-ce1b-47fe-9319-a3c8944fb361</tstamps>
+    </comp>
+    <comp ref="J53">
+      <value>Conn_01x04</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x04" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Thermometry_Enclosure.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ff5e648c-b802-45ab-b568-5c18eb4243c8</tstamps>
+    </comp>
+    <comp ref="J54">
+      <value>JST_SH_Conn_01x04_40K Diode</value>
+      <footprint>Connector_JST:JST_SH_BM04B-SRSS-TB_1x04-1MP_P1.00mm_Vertical</footprint>
+      <fields>
+        <field name="LCSC">C160390</field>
+      </fields>
+      <libsource lib="0JLC" part="JST_SH_Conn_01x04_i2c_horizontal" description=""/>
+      <property name="LCSC" value="C160390"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Thermometry_Enclosure.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>27e157dd-7c6a-4ef4-bc37-96b686cbf07a</tstamps>
+    </comp>
+    <comp ref="J55">
+      <value>Conn_01x07_Female</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x07_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="LCSC">C124418</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x07_Female" description="Generic connector, single row, 01x07, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="LCSC" value="C124418"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Thermometry_Enclosure.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>59c18e47-5661-4059-ac5f-ca0e4db39524</tstamps>
+    </comp>
+    <comp ref="J56">
+      <value>Conn_01x05_Female_LPH</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x05_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="LCSC">C50950</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x05_Female" description="Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="LCSC" value="C50950"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Thermometry_Enclosure.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2ebc9ff0-6a24-42c7-817e-aef98715f18a</tstamps>
+    </comp>
+    <comp ref="J57">
+      <value>Conn_01x07_Female</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x07_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="LCSC">C124418</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x07_Female" description="Generic connector, single row, 01x07, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="LCSC" value="C124418"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Thermometry_Enclosure.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>10f0ed9e-3bbd-47a1-9ffc-f83f1ce3a3f8</tstamps>
+    </comp>
+    <comp ref="J58">
+      <value>Conn_01x07_Female</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x07_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="LCSC">C124418</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x07_Female" description="Generic connector, single row, 01x07, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="LCSC" value="C124418"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Thermometry_Enclosure.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fad300b1-fa67-4e29-b1e9-dce719cc7c71</tstamps>
+    </comp>
+    <comp ref="J59">
+      <value>Conn_01x07_Female</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x07_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="LCSC">C124418</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x07_Female" description="Generic connector, single row, 01x07, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="LCSC" value="C124418"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Thermometry_Enclosure.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b15799c5-28cd-4c5c-93c8-afa8e5e35777</tstamps>
+    </comp>
+    <comp ref="J60">
+      <value>Conn_01x02_Female_HP4</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="LCSC">C49661</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x02_Female" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="LCSC" value="C49661"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Thermometry_Enclosure.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f0ec7785-0106-4fbe-ab57-093c9f667113</tstamps>
+    </comp>
+    <comp ref="J61">
+      <value>Conn_01x03</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x03" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Thermometry_Enclosure.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3049505b-bdae-4991-b60a-cb86703e7e29</tstamps>
+    </comp>
+    <comp ref="J67">
+      <value>Conn_01x02_Lockin 5V</value>
+      <footprint>Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical</footprint>
+      <fields>
+        <field name="LCSC">C2683610</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="LCSC" value="C2683610"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Thermometry_Enclosure.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>44fd3635-fb08-4186-a148-f3452e8c9e09</tstamps>
+    </comp>
+    <comp ref="J68">
+      <value>Conn_01x02_HP_5V</value>
+      <footprint>Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical</footprint>
+      <fields>
+        <field name="LCSC">C2683610</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="LCSC" value="C2683610"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Thermometry_Enclosure.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>eae6e317-cb88-45e1-8437-945bd9929da1</tstamps>
+    </comp>
+    <comp ref="USB1">
+      <value>TYPE-604-T3</value>
+      <footprint>0Library:USB-C-TH_TYPE-604-T3</footprint>
+      <fields>
+        <field name="LCSC">C2689839</field>
+        <field name="uuid">std:b6c19e6f567f42e08bd0e3880ca21382</field>
+      </fields>
+      <libsource lib="0Therm_Enclosure" part="TYPE-604-T3" description=""/>
+      <property name="LCSC" value="C2689839"/>
+      <property name="uuid" value="std:b6c19e6f567f42e08bd0e3880ca21382"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Thermometry_Enclosure.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>62541892-02c0-40d6-b7a4-efedc9f73a7e</tstamps>
+    </comp>
+    <comp ref="USB2">
+      <value>U-USBAS04P-F000</value>
+      <footprint>0Library:USB-A-TH_U-A-24DD-Y-2</footprint>
+      <datasheet>http://www.szlcsc.com/product/details_360842.html</datasheet>
+      <fields>
+        <field name="SuppliersPartNumber">C386735</field>
+        <field name="uuid">std:7c4e052594dd4972b9e48234767a1e50</field>
+      </fields>
+      <libsource lib="0Therm_Enclosure" part="U-USBAS04P-F000" description=""/>
+      <property name="SuppliersPartNumber" value="C386735"/>
+      <property name="uuid" value="std:7c4e052594dd4972b9e48234767a1e50"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Thermometry_Enclosure.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>adaa3645-2f87-4d51-a87b-f55b1ffb3502</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>HDMI_A_1.4</value>
+      <footprint>0Library:HDMI-TH_HDMI-019A</footprint>
+      <datasheet>https://en.wikipedia.org/wiki/HDMI</datasheet>
+      <fields>
+        <field name="LCSC">C369072</field>
+      </fields>
+      <libsource lib="Connector" part="HDMI_A_1.4" description="HDMI 1.4+ type A connector"/>
+      <property name="LCSC" value="C369072"/>
+      <property name="Sheetname" value="HDMI Ports"/>
+      <property name="Sheetfile" value="HDMI_ports.kicad_sch"/>
+      <sheetpath names="/HDMI Ports/" tstamps="/1177b381-35f4-4300-ae70-b7e5fb7ae7dc/"/>
+      <tstamps>7f3ae4e3-f0eb-4b26-bf37-bc74d157a221</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>HDMI_A_1.4</value>
+      <footprint>0Library:HDMI-TH_HDMI-019A</footprint>
+      <datasheet>https://en.wikipedia.org/wiki/HDMI</datasheet>
+      <fields>
+        <field name="LCSC">C369072</field>
+      </fields>
+      <libsource lib="Connector" part="HDMI_A_1.4" description="HDMI 1.4+ type A connector"/>
+      <property name="LCSC" value="C369072"/>
+      <property name="Sheetname" value="HDMI Ports"/>
+      <property name="Sheetfile" value="HDMI_ports.kicad_sch"/>
+      <sheetpath names="/HDMI Ports/" tstamps="/1177b381-35f4-4300-ae70-b7e5fb7ae7dc/"/>
+      <tstamps>9a8a14b1-05f5-4aaa-aa60-0a085b1fa134</tstamps>
+    </comp>
+    <comp ref="J3">
+      <value>HDMI_A_1.4</value>
+      <footprint>0Library:HDMI-TH_HDMI-019A</footprint>
+      <datasheet>https://en.wikipedia.org/wiki/HDMI</datasheet>
+      <fields>
+        <field name="LCSC">C369072</field>
+      </fields>
+      <libsource lib="Connector" part="HDMI_A_1.4" description="HDMI 1.4+ type A connector"/>
+      <property name="LCSC" value="C369072"/>
+      <property name="Sheetname" value="HDMI Ports"/>
+      <property name="Sheetfile" value="HDMI_ports.kicad_sch"/>
+      <sheetpath names="/HDMI Ports/" tstamps="/1177b381-35f4-4300-ae70-b7e5fb7ae7dc/"/>
+      <tstamps>33eb0e30-6e8a-473f-ad47-216a8a439007</tstamps>
+    </comp>
+    <comp ref="J4">
+      <value>HDMI_A_1.4</value>
+      <footprint>0Library:HDMI-TH_HDMI-019A</footprint>
+      <datasheet>https://en.wikipedia.org/wiki/HDMI</datasheet>
+      <fields>
+        <field name="LCSC">C369072</field>
+      </fields>
+      <libsource lib="Connector" part="HDMI_A_1.4" description="HDMI 1.4+ type A connector"/>
+      <property name="LCSC" value="C369072"/>
+      <property name="Sheetname" value="HDMI Ports"/>
+      <property name="Sheetfile" value="HDMI_ports.kicad_sch"/>
+      <sheetpath names="/HDMI Ports/" tstamps="/1177b381-35f4-4300-ae70-b7e5fb7ae7dc/"/>
+      <tstamps>9b659bc8-59ea-46ce-9f16-63022b7f8b29</tstamps>
+    </comp>
+    <comp ref="J5">
+      <value>HDMI_A_1.4</value>
+      <footprint>0Library:HDMI-TH_HDMI-019A</footprint>
+      <datasheet>https://en.wikipedia.org/wiki/HDMI</datasheet>
+      <fields>
+        <field name="LCSC">C369072</field>
+      </fields>
+      <libsource lib="Connector" part="HDMI_A_1.4" description="HDMI 1.4+ type A connector"/>
+      <property name="LCSC" value="C369072"/>
+      <property name="Sheetname" value="HDMI Ports"/>
+      <property name="Sheetfile" value="HDMI_ports.kicad_sch"/>
+      <sheetpath names="/HDMI Ports/" tstamps="/1177b381-35f4-4300-ae70-b7e5fb7ae7dc/"/>
+      <tstamps>fccd994b-ad06-4c54-a67b-7ca6d3784203</tstamps>
+    </comp>
+    <comp ref="J6">
+      <value>HDMI_A_1.4</value>
+      <footprint>0Library:HDMI-TH_HDMI-019A</footprint>
+      <datasheet>https://en.wikipedia.org/wiki/HDMI</datasheet>
+      <fields>
+        <field name="LCSC">C369072</field>
+      </fields>
+      <libsource lib="Connector" part="HDMI_A_1.4" description="HDMI 1.4+ type A connector"/>
+      <property name="LCSC" value="C369072"/>
+      <property name="Sheetname" value="HDMI Ports"/>
+      <property name="Sheetfile" value="HDMI_ports.kicad_sch"/>
+      <sheetpath names="/HDMI Ports/" tstamps="/1177b381-35f4-4300-ae70-b7e5fb7ae7dc/"/>
+      <tstamps>759fe5fd-eda2-4bb3-aac6-ed0cea27f3f5</tstamps>
+    </comp>
+    <comp ref="J7">
+      <value>HDMI_A_1.4</value>
+      <footprint>0Library:HDMI-TH_HDMI-019A</footprint>
+      <datasheet>https://en.wikipedia.org/wiki/HDMI</datasheet>
+      <fields>
+        <field name="LCSC">C369072</field>
+      </fields>
+      <libsource lib="Connector" part="HDMI_A_1.4" description="HDMI 1.4+ type A connector"/>
+      <property name="LCSC" value="C369072"/>
+      <property name="Sheetname" value="HDMI Ports"/>
+      <property name="Sheetfile" value="HDMI_ports.kicad_sch"/>
+      <sheetpath names="/HDMI Ports/" tstamps="/1177b381-35f4-4300-ae70-b7e5fb7ae7dc/"/>
+      <tstamps>a344ddad-17c4-4704-88db-532a6a8d328c</tstamps>
+    </comp>
+    <comp ref="J8">
+      <value>HDMI_A_1.4</value>
+      <footprint>0Library:HDMI-TH_HDMI-019A</footprint>
+      <datasheet>https://en.wikipedia.org/wiki/HDMI</datasheet>
+      <fields>
+        <field name="LCSC">C369072</field>
+      </fields>
+      <libsource lib="Connector" part="HDMI_A_1.4" description="HDMI 1.4+ type A connector"/>
+      <property name="LCSC" value="C369072"/>
+      <property name="Sheetname" value="HDMI Ports"/>
+      <property name="Sheetfile" value="HDMI_ports.kicad_sch"/>
+      <sheetpath names="/HDMI Ports/" tstamps="/1177b381-35f4-4300-ae70-b7e5fb7ae7dc/"/>
+      <tstamps>98c44a44-830c-4240-81b4-61d3a9378ac2</tstamps>
+    </comp>
+    <comp ref="J9">
+      <value>HDMI_A_1.4</value>
+      <footprint>0Library:HDMI-TH_HDMI-019A</footprint>
+      <datasheet>https://en.wikipedia.org/wiki/HDMI</datasheet>
+      <fields>
+        <field name="LCSC">C369072</field>
+      </fields>
+      <libsource lib="Connector" part="HDMI_A_1.4" description="HDMI 1.4+ type A connector"/>
+      <property name="LCSC" value="C369072"/>
+      <property name="Sheetname" value="HDMI Ports"/>
+      <property name="Sheetfile" value="HDMI_ports.kicad_sch"/>
+      <sheetpath names="/HDMI Ports/" tstamps="/1177b381-35f4-4300-ae70-b7e5fb7ae7dc/"/>
+      <tstamps>af4deb43-05dd-4f0b-a5ad-45ae07fdf40c</tstamps>
+    </comp>
+    <comp ref="J16">
+      <value>JST_SH_Conn_01x04_D HEad</value>
+      <footprint>Connector_JST:JST_SH_BM04B-SRSS-TB_1x04-1MP_P1.00mm_Vertical</footprint>
+      <fields>
+        <field name="LCSC">C160390</field>
+        <field name="MPN">A1001WR-S</field>
+      </fields>
+      <libsource lib="0JLC" part="JST_SH_Conn_01x04_i2c_horizontal" description=""/>
+      <property name="LCSC" value="C160390"/>
+      <property name="MPN" value="A1001WR-S"/>
+      <property name="Sheetname" value="HDMI Ports"/>
+      <property name="Sheetfile" value="HDMI_ports.kicad_sch"/>
+      <sheetpath names="/HDMI Ports/" tstamps="/1177b381-35f4-4300-ae70-b7e5fb7ae7dc/"/>
+      <tstamps>63448b17-f2be-4aa9-93a7-b8e0018fa705</tstamps>
+    </comp>
+    <comp ref="J17">
+      <value>JST_SH_Conn_01x04_3Head B</value>
+      <footprint>Connector_JST:JST_SH_BM04B-SRSS-TB_1x04-1MP_P1.00mm_Vertical</footprint>
+      <fields>
+        <field name="LCSC">C160390</field>
+        <field name="MPN">A1001WR-S</field>
+      </fields>
+      <libsource lib="0JLC" part="JST_SH_Conn_01x04_i2c_horizontal" description=""/>
+      <property name="LCSC" value="C160390"/>
+      <property name="MPN" value="A1001WR-S"/>
+      <property name="Sheetname" value="HDMI Ports"/>
+      <property name="Sheetfile" value="HDMI_ports.kicad_sch"/>
+      <sheetpath names="/HDMI Ports/" tstamps="/1177b381-35f4-4300-ae70-b7e5fb7ae7dc/"/>
+      <tstamps>f6c08f18-9d8d-44bc-977b-13d67d069fc5</tstamps>
+    </comp>
+    <comp ref="J18">
+      <value>JST_SH_Conn_01x04_3Head A</value>
+      <footprint>Connector_JST:JST_SH_BM04B-SRSS-TB_1x04-1MP_P1.00mm_Vertical</footprint>
+      <fields>
+        <field name="LCSC">C160390</field>
+        <field name="MPN">A1001WR-S</field>
+      </fields>
+      <libsource lib="0JLC" part="JST_SH_Conn_01x04_i2c_horizontal" description=""/>
+      <property name="LCSC" value="C160390"/>
+      <property name="MPN" value="A1001WR-S"/>
+      <property name="Sheetname" value="HDMI Ports"/>
+      <property name="Sheetfile" value="HDMI_ports.kicad_sch"/>
+      <sheetpath names="/HDMI Ports/" tstamps="/1177b381-35f4-4300-ae70-b7e5fb7ae7dc/"/>
+      <tstamps>55908917-e188-4d84-b8ed-26c81cdc6c66</tstamps>
+    </comp>
+    <comp ref="J19">
+      <value>JST_SH_Conn_01x04_4Head B</value>
+      <footprint>Connector_JST:JST_SH_BM04B-SRSS-TB_1x04-1MP_P1.00mm_Vertical</footprint>
+      <fields>
+        <field name="LCSC">C160390</field>
+        <field name="MPN">A1001WR-S</field>
+      </fields>
+      <libsource lib="0JLC" part="JST_SH_Conn_01x04_i2c_horizontal" description=""/>
+      <property name="LCSC" value="C160390"/>
+      <property name="MPN" value="A1001WR-S"/>
+      <property name="Sheetname" value="HDMI Ports"/>
+      <property name="Sheetfile" value="HDMI_ports.kicad_sch"/>
+      <sheetpath names="/HDMI Ports/" tstamps="/1177b381-35f4-4300-ae70-b7e5fb7ae7dc/"/>
+      <tstamps>20ef32eb-fd8b-413b-b485-2472900cd989</tstamps>
+    </comp>
+    <comp ref="J20">
+      <value>JST_SH_Conn_01x04_Still</value>
+      <footprint>Connector_JST:JST_SH_BM04B-SRSS-TB_1x04-1MP_P1.00mm_Vertical</footprint>
+      <fields>
+        <field name="LCSC">C160390</field>
+        <field name="MPN">A1001WR-S</field>
+      </fields>
+      <libsource lib="0JLC" part="JST_SH_Conn_01x04_i2c_horizontal" description=""/>
+      <property name="LCSC" value="C160390"/>
+      <property name="MPN" value="A1001WR-S"/>
+      <property name="Sheetname" value="HDMI Ports"/>
+      <property name="Sheetfile" value="HDMI_ports.kicad_sch"/>
+      <sheetpath names="/HDMI Ports/" tstamps="/1177b381-35f4-4300-ae70-b7e5fb7ae7dc/"/>
+      <tstamps>42b42825-6cc7-416b-b268-c9ff0fcd6962</tstamps>
+    </comp>
+    <comp ref="J21">
+      <value>JST_SH_Conn_01x04_4Head A</value>
+      <footprint>Connector_JST:JST_SH_BM04B-SRSS-TB_1x04-1MP_P1.00mm_Vertical</footprint>
+      <fields>
+        <field name="LCSC">C160390</field>
+        <field name="MPN">A1001WR-S</field>
+      </fields>
+      <libsource lib="0JLC" part="JST_SH_Conn_01x04_i2c_horizontal" description=""/>
+      <property name="LCSC" value="C160390"/>
+      <property name="MPN" value="A1001WR-S"/>
+      <property name="Sheetname" value="HDMI Ports"/>
+      <property name="Sheetfile" value="HDMI_ports.kicad_sch"/>
+      <sheetpath names="/HDMI Ports/" tstamps="/1177b381-35f4-4300-ae70-b7e5fb7ae7dc/"/>
+      <tstamps>45a26dfc-c5f5-44b8-bd4d-363b0fef6e29</tstamps>
+    </comp>
+    <comp ref="J22">
+      <value>JST_SH_Conn_01x04_4Pump Diode B</value>
+      <footprint>Connector_JST:JST_SH_BM04B-SRSS-TB_1x04-1MP_P1.00mm_Vertical</footprint>
+      <fields>
+        <field name="LCSC">C160390</field>
+        <field name="MPN">A1001WR-S</field>
+      </fields>
+      <libsource lib="0JLC" part="JST_SH_Conn_01x04_i2c_horizontal" description=""/>
+      <property name="LCSC" value="C160390"/>
+      <property name="MPN" value="A1001WR-S"/>
+      <property name="Sheetname" value="HDMI Ports"/>
+      <property name="Sheetfile" value="HDMI_ports.kicad_sch"/>
+      <sheetpath names="/HDMI Ports/" tstamps="/1177b381-35f4-4300-ae70-b7e5fb7ae7dc/"/>
+      <tstamps>df6bb343-ca9a-4143-9fcc-e1285b686e07</tstamps>
+    </comp>
+    <comp ref="J23">
+      <value>JST_SH_Conn_01x04_4Pump Diode A</value>
+      <footprint>Connector_JST:JST_SH_BM04B-SRSS-TB_1x04-1MP_P1.00mm_Vertical</footprint>
+      <fields>
+        <field name="LCSC">C160390</field>
+        <field name="MPN">A1001WR-S</field>
+      </fields>
+      <libsource lib="0JLC" part="JST_SH_Conn_01x04_i2c_horizontal" description=""/>
+      <property name="LCSC" value="C160390"/>
+      <property name="MPN" value="A1001WR-S"/>
+      <property name="Sheetname" value="HDMI Ports"/>
+      <property name="Sheetfile" value="HDMI_ports.kicad_sch"/>
+      <sheetpath names="/HDMI Ports/" tstamps="/1177b381-35f4-4300-ae70-b7e5fb7ae7dc/"/>
+      <tstamps>df13f9f6-6c7a-4ad1-8a38-f4bf0444a066</tstamps>
+    </comp>
+    <comp ref="J24">
+      <value>JST_SH_Conn_01x04_3Pump Diode B</value>
+      <footprint>Connector_JST:JST_SH_BM04B-SRSS-TB_1x04-1MP_P1.00mm_Vertical</footprint>
+      <fields>
+        <field name="LCSC">C160390</field>
+        <field name="MPN">A1001WR-S</field>
+      </fields>
+      <libsource lib="0JLC" part="JST_SH_Conn_01x04_i2c_horizontal" description=""/>
+      <property name="LCSC" value="C160390"/>
+      <property name="MPN" value="A1001WR-S"/>
+      <property name="Sheetname" value="HDMI Ports"/>
+      <property name="Sheetfile" value="HDMI_ports.kicad_sch"/>
+      <sheetpath names="/HDMI Ports/" tstamps="/1177b381-35f4-4300-ae70-b7e5fb7ae7dc/"/>
+      <tstamps>d1b578e4-696d-4f0e-bedd-cd8d1307a0d3</tstamps>
+    </comp>
+    <comp ref="J25">
+      <value>JST_SH_Conn_01x04_3Pump Diode A</value>
+      <footprint>Connector_JST:JST_SH_BM04B-SRSS-TB_1x04-1MP_P1.00mm_Vertical</footprint>
+      <fields>
+        <field name="LCSC">C160390</field>
+        <field name="MPN">A1001WR-S</field>
+      </fields>
+      <libsource lib="0JLC" part="JST_SH_Conn_01x04_i2c_horizontal" description=""/>
+      <property name="LCSC" value="C160390"/>
+      <property name="MPN" value="A1001WR-S"/>
+      <property name="Sheetname" value="HDMI Ports"/>
+      <property name="Sheetfile" value="HDMI_ports.kicad_sch"/>
+      <sheetpath names="/HDMI Ports/" tstamps="/1177b381-35f4-4300-ae70-b7e5fb7ae7dc/"/>
+      <tstamps>db3fa31a-e67e-4ed4-985e-0aee861d988f</tstamps>
+    </comp>
+    <comp ref="J26">
+      <value>JST_SH_Conn_01x04_4Switch Diode B</value>
+      <footprint>Connector_JST:JST_SH_BM04B-SRSS-TB_1x04-1MP_P1.00mm_Vertical</footprint>
+      <fields>
+        <field name="LCSC">C160390</field>
+        <field name="MPN">A1001WR-S</field>
+      </fields>
+      <libsource lib="0JLC" part="JST_SH_Conn_01x04_i2c_horizontal" description=""/>
+      <property name="LCSC" value="C160390"/>
+      <property name="MPN" value="A1001WR-S"/>
+      <property name="Sheetname" value="HDMI Ports"/>
+      <property name="Sheetfile" value="HDMI_ports.kicad_sch"/>
+      <sheetpath names="/HDMI Ports/" tstamps="/1177b381-35f4-4300-ae70-b7e5fb7ae7dc/"/>
+      <tstamps>0f525d48-7b43-4c3f-81ad-fc4b49be2747</tstamps>
+    </comp>
+    <comp ref="J27">
+      <value>JST_SH_Conn_01x04_Condenser</value>
+      <footprint>Connector_JST:JST_SH_BM04B-SRSS-TB_1x04-1MP_P1.00mm_Vertical</footprint>
+      <fields>
+        <field name="LCSC">C160390</field>
+        <field name="MPN">A1001WR-S</field>
+      </fields>
+      <libsource lib="0JLC" part="JST_SH_Conn_01x04_i2c_horizontal" description=""/>
+      <property name="LCSC" value="C160390"/>
+      <property name="MPN" value="A1001WR-S"/>
+      <property name="Sheetname" value="HDMI Ports"/>
+      <property name="Sheetfile" value="HDMI_ports.kicad_sch"/>
+      <sheetpath names="/HDMI Ports/" tstamps="/1177b381-35f4-4300-ae70-b7e5fb7ae7dc/"/>
+      <tstamps>9a4f364c-3424-44ed-b4d6-453a2e666371</tstamps>
+    </comp>
+    <comp ref="J28">
+      <value>JST_SH_Conn_01x04_4Switch Diode A</value>
+      <footprint>Connector_JST:JST_SH_BM04B-SRSS-TB_1x04-1MP_P1.00mm_Vertical</footprint>
+      <fields>
+        <field name="LCSC">C160390</field>
+        <field name="MPN">A1001WR-S</field>
+      </fields>
+      <libsource lib="0JLC" part="JST_SH_Conn_01x04_i2c_horizontal" description=""/>
+      <property name="LCSC" value="C160390"/>
+      <property name="MPN" value="A1001WR-S"/>
+      <property name="Sheetname" value="HDMI Ports"/>
+      <property name="Sheetfile" value="HDMI_ports.kicad_sch"/>
+      <sheetpath names="/HDMI Ports/" tstamps="/1177b381-35f4-4300-ae70-b7e5fb7ae7dc/"/>
+      <tstamps>3ea5ae7b-5fed-45fc-bb00-e6546727c29b</tstamps>
+    </comp>
+    <comp ref="J29">
+      <value>JST_SH_Conn_01x04_3Switch Diode B</value>
+      <footprint>Connector_JST:JST_SH_BM04B-SRSS-TB_1x04-1MP_P1.00mm_Vertical</footprint>
+      <fields>
+        <field name="LCSC">C160390</field>
+        <field name="MPN">A1001WR-S</field>
+      </fields>
+      <libsource lib="0JLC" part="JST_SH_Conn_01x04_i2c_horizontal" description=""/>
+      <property name="LCSC" value="C160390"/>
+      <property name="MPN" value="A1001WR-S"/>
+      <property name="Sheetname" value="HDMI Ports"/>
+      <property name="Sheetfile" value="HDMI_ports.kicad_sch"/>
+      <sheetpath names="/HDMI Ports/" tstamps="/1177b381-35f4-4300-ae70-b7e5fb7ae7dc/"/>
+      <tstamps>0af4a9b5-b78a-4a1e-a972-1404d81f8f9e</tstamps>
+    </comp>
+    <comp ref="J30">
+      <value>Conn_01x02_Still Heater</value>
+      <footprint>Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical</footprint>
+      <fields>
+        <field name="LCSC">C2683610</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="LCSC" value="C2683610"/>
+      <property name="Sheetname" value="HDMI Ports"/>
+      <property name="Sheetfile" value="HDMI_ports.kicad_sch"/>
+      <sheetpath names="/HDMI Ports/" tstamps="/1177b381-35f4-4300-ae70-b7e5fb7ae7dc/"/>
+      <tstamps>423d53fd-e562-4859-837a-09a434bc163c</tstamps>
+    </comp>
+    <comp ref="J31">
+      <value>JST_SH_Conn_01x04_3Switch Diode A</value>
+      <footprint>Connector_JST:JST_SH_BM04B-SRSS-TB_1x04-1MP_P1.00mm_Vertical</footprint>
+      <fields>
+        <field name="LCSC">C160390</field>
+        <field name="MPN">A1001WR-S</field>
+      </fields>
+      <libsource lib="0JLC" part="JST_SH_Conn_01x04_i2c_horizontal" description=""/>
+      <property name="LCSC" value="C160390"/>
+      <property name="MPN" value="A1001WR-S"/>
+      <property name="Sheetname" value="HDMI Ports"/>
+      <property name="Sheetfile" value="HDMI_ports.kicad_sch"/>
+      <sheetpath names="/HDMI Ports/" tstamps="/1177b381-35f4-4300-ae70-b7e5fb7ae7dc/"/>
+      <tstamps>6e0a04f9-554a-48b6-8a76-efa482d2ad42</tstamps>
+    </comp>
+    <comp ref="J32">
+      <value>Conn_01x02_15 pin Extra</value>
+      <footprint>Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical</footprint>
+      <fields>
+        <field name="LCSC">C2683610</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="LCSC" value="C2683610"/>
+      <property name="Sheetname" value="HDMI Ports"/>
+      <property name="Sheetfile" value="HDMI_ports.kicad_sch"/>
+      <sheetpath names="/HDMI Ports/" tstamps="/1177b381-35f4-4300-ae70-b7e5fb7ae7dc/"/>
+      <tstamps>d6f00f80-dadd-4b67-b426-d03b38b26561</tstamps>
+    </comp>
+    <comp ref="J33">
+      <value>Conn_01x02_4SwitchHeater B</value>
+      <footprint>Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical</footprint>
+      <fields>
+        <field name="LCSC">C2683610</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="LCSC" value="C2683610"/>
+      <property name="Sheetname" value="HDMI Ports"/>
+      <property name="Sheetfile" value="HDMI_ports.kicad_sch"/>
+      <sheetpath names="/HDMI Ports/" tstamps="/1177b381-35f4-4300-ae70-b7e5fb7ae7dc/"/>
+      <tstamps>2ac764ca-2fd1-4f7a-a058-8b40b036f1d4</tstamps>
+    </comp>
+    <comp ref="J34">
+      <value>Conn_01x02_4SwitchHeater A</value>
+      <footprint>Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical</footprint>
+      <fields>
+        <field name="LCSC">C2683610</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="LCSC" value="C2683610"/>
+      <property name="Sheetname" value="HDMI Ports"/>
+      <property name="Sheetfile" value="HDMI_ports.kicad_sch"/>
+      <sheetpath names="/HDMI Ports/" tstamps="/1177b381-35f4-4300-ae70-b7e5fb7ae7dc/"/>
+      <tstamps>651a9887-a069-4c83-bc40-83ade5444474</tstamps>
+    </comp>
+    <comp ref="J35">
+      <value>Conn_01x02_3SwitchHeater B</value>
+      <footprint>Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical</footprint>
+      <fields>
+        <field name="LCSC">C2683610</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="LCSC" value="C2683610"/>
+      <property name="Sheetname" value="HDMI Ports"/>
+      <property name="Sheetfile" value="HDMI_ports.kicad_sch"/>
+      <sheetpath names="/HDMI Ports/" tstamps="/1177b381-35f4-4300-ae70-b7e5fb7ae7dc/"/>
+      <tstamps>5759777a-a196-4f8b-8a9e-b3b572bca72f</tstamps>
+    </comp>
+    <comp ref="J36">
+      <value>Conn_01x02_3SwitchHeater A</value>
+      <footprint>Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical</footprint>
+      <fields>
+        <field name="LCSC">C2683610</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="LCSC" value="C2683610"/>
+      <property name="Sheetname" value="HDMI Ports"/>
+      <property name="Sheetfile" value="HDMI_ports.kicad_sch"/>
+      <sheetpath names="/HDMI Ports/" tstamps="/1177b381-35f4-4300-ae70-b7e5fb7ae7dc/"/>
+      <tstamps>4b47f48e-f421-417a-8038-258cd27d5c4f</tstamps>
+    </comp>
+    <comp ref="J37">
+      <value>JST_SH_Conn_01x04_40K Diode</value>
+      <footprint>Connector_JST:JST_SH_BM04B-SRSS-TB_1x04-1MP_P1.00mm_Vertical</footprint>
+      <fields>
+        <field name="LCSC">C160390</field>
+        <field name="MPN">A1001WR-S</field>
+      </fields>
+      <libsource lib="0JLC" part="JST_SH_Conn_01x04_i2c_horizontal" description=""/>
+      <property name="LCSC" value="C160390"/>
+      <property name="MPN" value="A1001WR-S"/>
+      <property name="Sheetname" value="HDMI Ports"/>
+      <property name="Sheetfile" value="HDMI_ports.kicad_sch"/>
+      <sheetpath names="/HDMI Ports/" tstamps="/1177b381-35f4-4300-ae70-b7e5fb7ae7dc/"/>
+      <tstamps>49a9b470-e33c-4ed9-abd2-d560a9ddd6ae</tstamps>
+    </comp>
+    <comp ref="J38">
+      <value>Conn_01x02_4PumpHeater B</value>
+      <footprint>Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical</footprint>
+      <fields>
+        <field name="LCSC">C2683610</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="LCSC" value="C2683610"/>
+      <property name="Sheetname" value="HDMI Ports"/>
+      <property name="Sheetfile" value="HDMI_ports.kicad_sch"/>
+      <sheetpath names="/HDMI Ports/" tstamps="/1177b381-35f4-4300-ae70-b7e5fb7ae7dc/"/>
+      <tstamps>06352c48-e9f9-478c-a6b2-647d3f05cbc2</tstamps>
+    </comp>
+    <comp ref="J39">
+      <value>Conn_01x02_4PumpHeater A</value>
+      <footprint>Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical</footprint>
+      <fields>
+        <field name="LCSC">C2683610</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="LCSC" value="C2683610"/>
+      <property name="Sheetname" value="HDMI Ports"/>
+      <property name="Sheetfile" value="HDMI_ports.kicad_sch"/>
+      <sheetpath names="/HDMI Ports/" tstamps="/1177b381-35f4-4300-ae70-b7e5fb7ae7dc/"/>
+      <tstamps>cff910c6-0943-49b7-9041-5970fa5043cd</tstamps>
+    </comp>
+    <comp ref="J40">
+      <value>Conn_01x02_3PumpHeater B</value>
+      <footprint>Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical</footprint>
+      <fields>
+        <field name="LCSC">C2683610</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="LCSC" value="C2683610"/>
+      <property name="Sheetname" value="HDMI Ports"/>
+      <property name="Sheetfile" value="HDMI_ports.kicad_sch"/>
+      <sheetpath names="/HDMI Ports/" tstamps="/1177b381-35f4-4300-ae70-b7e5fb7ae7dc/"/>
+      <tstamps>78836472-aa27-4680-b863-49966411ed0f</tstamps>
+    </comp>
+    <comp ref="J41">
+      <value>Conn_01x02_3PumpHeater A</value>
+      <footprint>Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical</footprint>
+      <fields>
+        <field name="LCSC">C2683610</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="LCSC" value="C2683610"/>
+      <property name="Sheetname" value="HDMI Ports"/>
+      <property name="Sheetfile" value="HDMI_ports.kicad_sch"/>
+      <sheetpath names="/HDMI Ports/" tstamps="/1177b381-35f4-4300-ae70-b7e5fb7ae7dc/"/>
+      <tstamps>980d5f6a-399e-47bb-8fca-1118f832925b</tstamps>
+    </comp>
+    <comp ref="J42">
+      <value>JST_SH_Conn_01x04_4K Diode</value>
+      <footprint>Connector_JST:JST_SH_BM04B-SRSS-TB_1x04-1MP_P1.00mm_Vertical</footprint>
+      <fields>
+        <field name="LCSC">C160390</field>
+        <field name="MPN">A1001WR-S</field>
+      </fields>
+      <libsource lib="0JLC" part="JST_SH_Conn_01x04_i2c_horizontal" description=""/>
+      <property name="LCSC" value="C160390"/>
+      <property name="MPN" value="A1001WR-S"/>
+      <property name="Sheetname" value="HDMI Ports"/>
+      <property name="Sheetfile" value="HDMI_ports.kicad_sch"/>
+      <sheetpath names="/HDMI Ports/" tstamps="/1177b381-35f4-4300-ae70-b7e5fb7ae7dc/"/>
+      <tstamps>3c14187d-99e8-4b85-a849-e7371e0192d4</tstamps>
+    </comp>
+    <comp ref="J43">
+      <value>Conn_01x02_Extra B</value>
+      <footprint>Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical</footprint>
+      <fields>
+        <field name="LCSC">C2683610</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="LCSC" value="C2683610"/>
+      <property name="Sheetname" value="HDMI Ports"/>
+      <property name="Sheetfile" value="HDMI_ports.kicad_sch"/>
+      <sheetpath names="/HDMI Ports/" tstamps="/1177b381-35f4-4300-ae70-b7e5fb7ae7dc/"/>
+      <tstamps>586c976c-a47c-4b8d-a566-90d6268a0247</tstamps>
+    </comp>
+    <comp ref="J44">
+      <value>Conn_01x02_Extra A</value>
+      <footprint>Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical</footprint>
+      <fields>
+        <field name="LCSC">C2683610</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="LCSC" value="C2683610"/>
+      <property name="Sheetname" value="HDMI Ports"/>
+      <property name="Sheetfile" value="HDMI_ports.kicad_sch"/>
+      <sheetpath names="/HDMI Ports/" tstamps="/1177b381-35f4-4300-ae70-b7e5fb7ae7dc/"/>
+      <tstamps>22a6c209-83f0-472a-896f-20313a67845d</tstamps>
+    </comp>
+    <comp ref="J45">
+      <value>Conn_01x02_Extra B</value>
+      <footprint>Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical</footprint>
+      <fields>
+        <field name="LCSC">C2683610</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="LCSC" value="C2683610"/>
+      <property name="Sheetname" value="HDMI Ports"/>
+      <property name="Sheetfile" value="HDMI_ports.kicad_sch"/>
+      <sheetpath names="/HDMI Ports/" tstamps="/1177b381-35f4-4300-ae70-b7e5fb7ae7dc/"/>
+      <tstamps>82a9de3a-bfd5-44c7-a5ba-157bc28a4cf8</tstamps>
+    </comp>
+    <comp ref="J46">
+      <value>Conn_01x02_Extra A</value>
+      <footprint>Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical</footprint>
+      <fields>
+        <field name="LCSC">C2683610</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="LCSC" value="C2683610"/>
+      <property name="Sheetname" value="HDMI Ports"/>
+      <property name="Sheetfile" value="HDMI_ports.kicad_sch"/>
+      <sheetpath names="/HDMI Ports/" tstamps="/1177b381-35f4-4300-ae70-b7e5fb7ae7dc/"/>
+      <tstamps>86c3adfd-f7b8-4b2e-bb10-62e0473f053c</tstamps>
+    </comp>
+    <comp ref="J62">
+      <value>JST_SH_Conn_01x04</value>
+      <footprint>Connector_JST:JST_SH_BM04B-SRSS-TB_1x04-1MP_P1.00mm_Vertical</footprint>
+      <fields>
+        <field name="LCSC">C160390</field>
+      </fields>
+      <libsource lib="0JLC" part="JST_SH_Conn_01x04_i2c_horizontal" description=""/>
+      <property name="LCSC" value="C160390"/>
+      <property name="Sheetname" value="i2c_Bus"/>
+      <property name="Sheetfile" value="I2C_Bus.kicad_sch"/>
+      <sheetpath names="/i2c_Bus/" tstamps="/e1c53e96-b1e0-4793-8b3a-56a452783469/"/>
+      <tstamps>6c14db48-be9b-4b87-95b4-23bac22d1ace</tstamps>
+    </comp>
+    <comp ref="J63">
+      <value>JST_SH_Conn_01x04</value>
+      <footprint>Connector_JST:JST_SH_BM04B-SRSS-TB_1x04-1MP_P1.00mm_Vertical</footprint>
+      <fields>
+        <field name="LCSC">C160390</field>
+      </fields>
+      <libsource lib="0JLC" part="JST_SH_Conn_01x04_i2c_horizontal" description=""/>
+      <property name="LCSC" value="C160390"/>
+      <property name="Sheetname" value="i2c_Bus"/>
+      <property name="Sheetfile" value="I2C_Bus.kicad_sch"/>
+      <sheetpath names="/i2c_Bus/" tstamps="/e1c53e96-b1e0-4793-8b3a-56a452783469/"/>
+      <tstamps>b9dcd2a3-af83-4d7c-adbd-07e3c1fe873f</tstamps>
+    </comp>
+    <comp ref="J64">
+      <value>JST_SH_Conn_01x04</value>
+      <footprint>Connector_JST:JST_SH_BM04B-SRSS-TB_1x04-1MP_P1.00mm_Vertical</footprint>
+      <fields>
+        <field name="LCSC">C160390</field>
+      </fields>
+      <libsource lib="0JLC" part="JST_SH_Conn_01x04_i2c_horizontal" description=""/>
+      <property name="LCSC" value="C160390"/>
+      <property name="Sheetname" value="i2c_Bus"/>
+      <property name="Sheetfile" value="I2C_Bus.kicad_sch"/>
+      <sheetpath names="/i2c_Bus/" tstamps="/e1c53e96-b1e0-4793-8b3a-56a452783469/"/>
+      <tstamps>5e471144-93a3-4194-9ca5-19f4a8f06e9c</tstamps>
+    </comp>
+    <comp ref="J65">
+      <value>JST_SH_Conn_01x04</value>
+      <footprint>Connector_JST:JST_SH_BM04B-SRSS-TB_1x04-1MP_P1.00mm_Vertical</footprint>
+      <fields>
+        <field name="LCSC">C160390</field>
+      </fields>
+      <libsource lib="0JLC" part="JST_SH_Conn_01x04_i2c_horizontal" description=""/>
+      <property name="LCSC" value="C160390"/>
+      <property name="Sheetname" value="i2c_Bus"/>
+      <property name="Sheetfile" value="I2C_Bus.kicad_sch"/>
+      <sheetpath names="/i2c_Bus/" tstamps="/e1c53e96-b1e0-4793-8b3a-56a452783469/"/>
+      <tstamps>1681a2b3-88f4-4222-8036-31159956fbba</tstamps>
+    </comp>
+    <comp ref="J66">
+      <value>JST_SH_Conn_01x04</value>
+      <footprint>Connector_JST:JST_SH_BM04B-SRSS-TB_1x04-1MP_P1.00mm_Vertical</footprint>
+      <fields>
+        <field name="LCSC">C160390</field>
+      </fields>
+      <libsource lib="0JLC" part="JST_SH_Conn_01x04_i2c_horizontal" description=""/>
+      <property name="LCSC" value="C160390"/>
+      <property name="Sheetname" value="i2c_Bus"/>
+      <property name="Sheetfile" value="I2C_Bus.kicad_sch"/>
+      <sheetpath names="/i2c_Bus/" tstamps="/e1c53e96-b1e0-4793-8b3a-56a452783469/"/>
+      <tstamps>564345ec-29b1-45bd-98c5-709c44eb2364</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>4.7K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="LCSC">C99782</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC" value="C99782"/>
+      <property name="Sheetname" value="i2c_Bus"/>
+      <property name="Sheetfile" value="I2C_Bus.kicad_sch"/>
+      <sheetpath names="/i2c_Bus/" tstamps="/e1c53e96-b1e0-4793-8b3a-56a452783469/"/>
+      <tstamps>9e9ac4e6-aac8-45ab-8dec-2d32db83dc1c</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>4.7K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="LCSC">C99782</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC" value="C99782"/>
+      <property name="Sheetname" value="i2c_Bus"/>
+      <property name="Sheetfile" value="I2C_Bus.kicad_sch"/>
+      <sheetpath names="/i2c_Bus/" tstamps="/e1c53e96-b1e0-4793-8b3a-56a452783469/"/>
+      <tstamps>6bdc3ac8-5e00-48f5-8ebc-85f5b1f322bf</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="0JLC" part="JST_SH_Conn_01x04_i2c_horizontal">
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+        <fp>Connector*:JST_SH_*04B*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">0JLC_JST_SH_Conn_01x04_i2c_horizontal</field>
+        <field name="Footprint">Connector_JST:JST_SH_BM04B-SRSS-TB_1x04-1MP_P1.00mm_Vertical</field>
+        <field name="LCSC">C371571</field>
+        <field name="MPN">A1001WR-S</field>
+      </fields>
+      <pins>
+        <pin num="1" name="gnd" type="passive"/>
+        <pin num="2" name="VCC" type="passive"/>
+        <pin num="3" name="SDA" type="passive"/>
+        <pin num="4" name="SCL" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="0Therm_Enclosure" part="DC-044K-D025">
+      <fields>
+        <field name="Reference">DC</field>
+        <field name="Value">DC-044K-D025</field>
+        <field name="Footprint">kicad_lceda:DC-IN-TH_DC-044K-D025</field>
+        <field name="SuppliersPartNumber">C963204</field>
+        <field name="uuid">std:3cea2f154e624d63bd8d608b96c28964</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="input"/>
+        <pin num="2" name="2" type="input"/>
+        <pin num="3" name="3" type="input"/>
+        <pin num="4" name="4" type="input"/>
+        <pin num="6" name="6" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="0Therm_Enclosure" part="TYPE-604-T3">
+      <fields>
+        <field name="Reference">USB</field>
+        <field name="Value">TYPE-604-T3</field>
+        <field name="Footprint">kicad_lceda:USB-C-TH_TYPE-604-T3</field>
+        <field name="SuppliersPartNumber">C2689839</field>
+        <field name="uuid">std:b6c19e6f567f42e08bd0e3880ca21382</field>
+      </fields>
+      <pins>
+        <pin num="7" name="EH" type="input"/>
+        <pin num="8" name="EH" type="input"/>
+        <pin num="A5" name="CC1" type="input"/>
+        <pin num="A9" name="VBUS" type="input"/>
+        <pin num="A12" name="GND" type="input"/>
+        <pin num="B5" name="CC2" type="input"/>
+        <pin num="B9" name="VBUS" type="input"/>
+        <pin num="B12" name="GND" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="0Therm_Enclosure" part="U-USBAS04P-F000">
+      <docs>http://www.szlcsc.com/product/details_360842.html</docs>
+      <fields>
+        <field name="Reference">USB</field>
+        <field name="Value">U-USBAS04P-F000</field>
+        <field name="Footprint">kicad_lceda:USB-A-TH_U-A-24DD-Y-2</field>
+        <field name="Datasheet">http://www.szlcsc.com/product/details_360842.html</field>
+        <field name="SuppliersPartNumber">C386735</field>
+        <field name="uuid">std:7c4e052594dd4972b9e48234767a1e50</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VCC" type="input"/>
+        <pin num="2" name="D-" type="input"/>
+        <pin num="3" name="D+" type="input"/>
+        <pin num="4" name="GND" type="input"/>
+        <pin num="5" name="5" type="input"/>
+        <pin num="6" name="6" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x02_Female">
+      <description>Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02_Female</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x05_Female">
+      <description>Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x05_Female</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x07_Female">
+      <description>Generic connector, single row, 01x07, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x07_Female</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="HDMI_A_1.4">
+      <description>HDMI 1.4+ type A connector</description>
+      <docs>https://en.wikipedia.org/wiki/HDMI</docs>
+      <footprints>
+        <fp>HDMI*A*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">HDMI_A_1.4</field>
+        <field name="Datasheet">https://en.wikipedia.org/wiki/HDMI</field>
+      </fields>
+      <pins>
+        <pin num="1" name="D2+" type="passive"/>
+        <pin num="2" name="D2S" type="power_in"/>
+        <pin num="3" name="D2-" type="passive"/>
+        <pin num="4" name="D1+" type="passive"/>
+        <pin num="5" name="D1S" type="power_in"/>
+        <pin num="6" name="D1-" type="passive"/>
+        <pin num="7" name="D0+" type="passive"/>
+        <pin num="8" name="D0S" type="power_in"/>
+        <pin num="9" name="D0-" type="passive"/>
+        <pin num="10" name="CK+" type="passive"/>
+        <pin num="11" name="CKS" type="power_in"/>
+        <pin num="12" name="CK-" type="passive"/>
+        <pin num="13" name="CEC" type="bidirectional"/>
+        <pin num="14" name="UTILITY/HEAC+" type="passive"/>
+        <pin num="15" name="SCL" type="passive"/>
+        <pin num="16" name="SDA" type="bidirectional"/>
+        <pin num="17" name="GND" type="power_in"/>
+        <pin num="18" name="+5V" type="power_in"/>
+        <pin num="19" name="HPD/HEAC-" type="passive"/>
+        <pin num="SH" name="SH" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x02">
+      <description>Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x03">
+      <description>Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x03</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x04">
+      <description>Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x04</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Mechanical" part="MountingHole">
+      <description>Mounting Hole without connection</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>MountingHole*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole</field>
+        <field name="Datasheet">~</field>
+      </fields>
+    </libpart>
+    <libpart lib="Mechanical" part="MountingHole_Pad">
+      <description>Mounting Hole with connection</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>MountingHole*Pad*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole_Pad</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="pspice" part="DIODE">
+      <description>Diode symbol for simulation only. Pin order incompatible with official kicad footprints</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">DIODE</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="input"/>
+        <pin num="2" name="A" type="input"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="0Therm_Enclosure">
+      <uri>C:\Users\rdm8\Documents\GitHub\Themometry_Enclosure\Thermometry_Enclosure/Parts/0Therm_Enclosure.kicad_sym</uri>
+    </library>
+    <library logical="Connector">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Connector.kicad_sym</uri>
+    </library>
+    <library logical="Connector_Generic">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Connector_Generic.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Device.kicad_sym</uri>
+    </library>
+    <library logical="Mechanical">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Mechanical.kicad_sym</uri>
+    </library>
+    <library logical="pspice">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/pspice.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+5V">
+      <node ref="D1" pin="1" pinfunction="K" pintype="input"/>
+      <node ref="D2" pin="1" pinfunction="K" pintype="input"/>
+      <node ref="D3" pin="1" pinfunction="K" pintype="input"/>
+      <node ref="DC1" pin="4" pinfunction="4" pintype="input"/>
+      <node ref="J47" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J67" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J68" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="USB1" pin="A9" pinfunction="VBUS" pintype="input"/>
+      <node ref="USB1" pin="B9" pinfunction="VBUS" pintype="input"/>
+      <node ref="USB2" pin="1" pinfunction="VCC" pintype="input"/>
+    </net>
+    <net code="2" name="/3.3V_Lockin">
+      <node ref="J10" pin="2" pinfunction="VCC" pintype="passive"/>
+      <node ref="J11" pin="2" pinfunction="VCC" pintype="passive"/>
+      <node ref="J12" pin="2" pinfunction="VCC" pintype="passive"/>
+      <node ref="J13" pin="2" pinfunction="VCC" pintype="passive"/>
+      <node ref="J15" pin="3" pinfunction="Pin_3" pintype="passive"/>
+    </net>
+    <net code="3" name="/D_3.3V">
+      <node ref="J49" pin="2" pinfunction="VCC" pintype="passive"/>
+      <node ref="J54" pin="2" pinfunction="VCC" pintype="passive"/>
+      <node ref="J59" pin="3" pinfunction="Pin_3" pintype="passive"/>
+    </net>
+    <net code="4" name="/D_RX 0">
+      <node ref="J54" pin="3" pinfunction="SDA" pintype="passive"/>
+      <node ref="J58" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    </net>
+    <net code="5" name="/D_RX 1">
+      <node ref="J49" pin="3" pinfunction="SDA" pintype="passive"/>
+      <node ref="J59" pin="7" pinfunction="Pin_7" pintype="passive"/>
+    </net>
+    <net code="6" name="/D_TX 0">
+      <node ref="J54" pin="4" pinfunction="SCL" pintype="passive"/>
+      <node ref="J58" pin="2" pinfunction="Pin_2" pintype="passive"/>
+    </net>
+    <net code="7" name="/D_TX 1">
+      <node ref="J49" pin="4" pinfunction="SCL" pintype="passive"/>
+      <node ref="J58" pin="7" pinfunction="Pin_7" pintype="passive"/>
+    </net>
+    <net code="8" name="/GPIO3">
+      <node ref="J57" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="J60" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    </net>
+    <net code="9" name="/GPIO4">
+      <node ref="J57" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="J60" pin="2" pinfunction="Pin_2" pintype="passive"/>
+    </net>
+    <net code="10" name="/GPIO24">
+      <node ref="J52" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J55" pin="5" pinfunction="Pin_5" pintype="passive"/>
+    </net>
+    <net code="11" name="/GPIO25">
+      <node ref="J52" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J55" pin="6" pinfunction="Pin_6" pintype="passive"/>
+    </net>
+    <net code="12" name="/GPIO26">
+      <node ref="J51" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J55" pin="4" pinfunction="Pin_4" pintype="passive"/>
+    </net>
+    <net code="13" name="/GPIO27">
+      <node ref="J51" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J55" pin="3" pinfunction="Pin_3" pintype="passive"/>
+    </net>
+    <net code="14" name="/GPIO28">
+      <node ref="J50" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J55" pin="2" pinfunction="Pin_2" pintype="passive"/>
+    </net>
+    <net code="15" name="/GPIO29">
+      <node ref="J50" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J55" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    </net>
+    <net code="16" name="/LPH 3.3V">
+      <node ref="J56" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J57" pin="3" pinfunction="Pin_3" pintype="passive"/>
+    </net>
+    <net code="17" name="/L_GPIO3">
+      <node ref="J15" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="J48" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    </net>
+    <net code="18" name="/L_GPIO6">
+      <node ref="J15" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="J48" pin="3" pinfunction="Pin_3" pintype="passive"/>
+    </net>
+    <net code="19" name="/L_GPO4">
+      <node ref="J15" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="J48" pin="2" pinfunction="Pin_2" pintype="passive"/>
+    </net>
+    <net code="20" name="/L_RX 0">
+      <node ref="J12" pin="3" pinfunction="SDA" pintype="passive"/>
+      <node ref="J14" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    </net>
+    <net code="21" name="/L_RX 1">
+      <node ref="J10" pin="3" pinfunction="SDA" pintype="passive"/>
+      <node ref="J15" pin="7" pinfunction="Pin_7" pintype="passive"/>
+    </net>
+    <net code="22" name="/L_TX 0">
+      <node ref="J12" pin="4" pinfunction="SCL" pintype="passive"/>
+      <node ref="J14" pin="2" pinfunction="Pin_2" pintype="passive"/>
+    </net>
+    <net code="23" name="/L_TX 1">
+      <node ref="J10" pin="4" pinfunction="SCL" pintype="passive"/>
+      <node ref="J14" pin="7" pinfunction="Pin_7" pintype="passive"/>
+    </net>
+    <net code="24" name="/Mux 0 A">
+      <node ref="J13" pin="4" pinfunction="SCL" pintype="passive"/>
+      <node ref="J14" pin="3" pinfunction="Pin_3" pintype="passive"/>
+    </net>
+    <net code="25" name="/Mux 0 B">
+      <node ref="J13" pin="3" pinfunction="SDA" pintype="passive"/>
+      <node ref="J14" pin="4" pinfunction="Pin_4" pintype="passive"/>
+    </net>
+    <net code="26" name="/Mux 1 A">
+      <node ref="J11" pin="4" pinfunction="SCL" pintype="passive"/>
+      <node ref="J14" pin="5" pinfunction="Pin_5" pintype="passive"/>
+    </net>
+    <net code="27" name="/Mux 1 B">
+      <node ref="J11" pin="3" pinfunction="SDA" pintype="passive"/>
+      <node ref="J14" pin="6" pinfunction="Pin_6" pintype="passive"/>
+    </net>
+    <net code="28" name="/RX (GPIO 5)">
+      <node ref="J56" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="J57" pin="7" pinfunction="Pin_7" pintype="passive"/>
+    </net>
+    <net code="29" name="/SCK (GPIO6)">
+      <node ref="J56" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="J57" pin="6" pinfunction="Pin_6" pintype="passive"/>
+    </net>
+    <net code="30" name="/TX (GPIO20)">
+      <node ref="J55" pin="7" pinfunction="Pin_7" pintype="passive"/>
+      <node ref="J56" pin="3" pinfunction="Pin_3" pintype="passive"/>
+    </net>
+    <net code="31" name="GND">
+      <node ref="DC1" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="DC1" pin="2" pinfunction="2" pintype="input"/>
+      <node ref="DC1" pin="3" pinfunction="3" pintype="input"/>
+      <node ref="DC1" pin="6" pinfunction="6" pintype="input"/>
+      <node ref="H30" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="H31" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="H32" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="H33" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="H34" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="H35" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="H36" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="H37" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="H38" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="H39" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="H40" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="H41" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="J1" pin="11" pinfunction="CKS" pintype="power_in"/>
+      <node ref="J1" pin="17" pinfunction="GND" pintype="power_in"/>
+      <node ref="J1" pin="2" pinfunction="D2S" pintype="power_in"/>
+      <node ref="J1" pin="5" pinfunction="D1S" pintype="power_in"/>
+      <node ref="J1" pin="8" pinfunction="D0S" pintype="power_in"/>
+      <node ref="J1" pin="SH" pinfunction="SH" pintype="passive"/>
+      <node ref="J10" pin="1" pinfunction="gnd" pintype="passive"/>
+      <node ref="J11" pin="1" pinfunction="gnd" pintype="passive"/>
+      <node ref="J12" pin="1" pinfunction="gnd" pintype="passive"/>
+      <node ref="J13" pin="1" pinfunction="gnd" pintype="passive"/>
+      <node ref="J15" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J2" pin="11" pinfunction="CKS" pintype="power_in"/>
+      <node ref="J2" pin="17" pinfunction="GND" pintype="power_in"/>
+      <node ref="J2" pin="2" pinfunction="D2S" pintype="power_in"/>
+      <node ref="J2" pin="5" pinfunction="D1S" pintype="power_in"/>
+      <node ref="J2" pin="8" pinfunction="D0S" pintype="power_in"/>
+      <node ref="J2" pin="SH" pinfunction="SH" pintype="passive"/>
+      <node ref="J3" pin="11" pinfunction="CKS" pintype="power_in"/>
+      <node ref="J3" pin="17" pinfunction="GND" pintype="power_in"/>
+      <node ref="J3" pin="2" pinfunction="D2S" pintype="power_in"/>
+      <node ref="J3" pin="5" pinfunction="D1S" pintype="power_in"/>
+      <node ref="J3" pin="8" pinfunction="D0S" pintype="power_in"/>
+      <node ref="J3" pin="SH" pinfunction="SH" pintype="passive"/>
+      <node ref="J4" pin="11" pinfunction="CKS" pintype="power_in"/>
+      <node ref="J4" pin="17" pinfunction="GND" pintype="power_in"/>
+      <node ref="J4" pin="2" pinfunction="D2S" pintype="power_in"/>
+      <node ref="J4" pin="5" pinfunction="D1S" pintype="power_in"/>
+      <node ref="J4" pin="8" pinfunction="D0S" pintype="power_in"/>
+      <node ref="J4" pin="SH" pinfunction="SH" pintype="passive"/>
+      <node ref="J47" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J49" pin="1" pinfunction="gnd" pintype="passive"/>
+      <node ref="J5" pin="11" pinfunction="CKS" pintype="power_in"/>
+      <node ref="J5" pin="17" pinfunction="GND" pintype="power_in"/>
+      <node ref="J5" pin="2" pinfunction="D2S" pintype="power_in"/>
+      <node ref="J5" pin="5" pinfunction="D1S" pintype="power_in"/>
+      <node ref="J5" pin="8" pinfunction="D0S" pintype="power_in"/>
+      <node ref="J5" pin="SH" pinfunction="SH" pintype="passive"/>
+      <node ref="J54" pin="1" pinfunction="gnd" pintype="passive"/>
+      <node ref="J56" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J57" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J59" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J6" pin="11" pinfunction="CKS" pintype="power_in"/>
+      <node ref="J6" pin="17" pinfunction="GND" pintype="power_in"/>
+      <node ref="J6" pin="2" pinfunction="D2S" pintype="power_in"/>
+      <node ref="J6" pin="5" pinfunction="D1S" pintype="power_in"/>
+      <node ref="J6" pin="8" pinfunction="D0S" pintype="power_in"/>
+      <node ref="J6" pin="SH" pinfunction="SH" pintype="passive"/>
+      <node ref="J67" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J68" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J7" pin="11" pinfunction="CKS" pintype="power_in"/>
+      <node ref="J7" pin="17" pinfunction="GND" pintype="power_in"/>
+      <node ref="J7" pin="2" pinfunction="D2S" pintype="power_in"/>
+      <node ref="J7" pin="5" pinfunction="D1S" pintype="power_in"/>
+      <node ref="J7" pin="8" pinfunction="D0S" pintype="power_in"/>
+      <node ref="J7" pin="SH" pinfunction="SH" pintype="passive"/>
+      <node ref="J8" pin="11" pinfunction="CKS" pintype="power_in"/>
+      <node ref="J8" pin="17" pinfunction="GND" pintype="power_in"/>
+      <node ref="J8" pin="2" pinfunction="D2S" pintype="power_in"/>
+      <node ref="J8" pin="5" pinfunction="D1S" pintype="power_in"/>
+      <node ref="J8" pin="8" pinfunction="D0S" pintype="power_in"/>
+      <node ref="J8" pin="SH" pinfunction="SH" pintype="passive"/>
+      <node ref="J9" pin="11" pinfunction="CKS" pintype="power_in"/>
+      <node ref="J9" pin="17" pinfunction="GND" pintype="power_in"/>
+      <node ref="J9" pin="2" pinfunction="D2S" pintype="power_in"/>
+      <node ref="J9" pin="5" pinfunction="D1S" pintype="power_in"/>
+      <node ref="J9" pin="8" pinfunction="D0S" pintype="power_in"/>
+      <node ref="J9" pin="SH" pinfunction="SH" pintype="passive"/>
+      <node ref="USB1" pin="7" pinfunction="EH" pintype="input"/>
+      <node ref="USB1" pin="8" pinfunction="EH" pintype="input"/>
+      <node ref="USB1" pin="A12" pinfunction="GND" pintype="input"/>
+      <node ref="USB1" pin="B12" pinfunction="GND" pintype="input"/>
+      <node ref="USB2" pin="4" pinfunction="GND" pintype="input"/>
+      <node ref="USB2" pin="5" pinfunction="5" pintype="input"/>
+      <node ref="USB2" pin="6" pinfunction="6" pintype="input"/>
+    </net>
+    <net code="32" name="Net-(D1-Pad2)">
+      <node ref="D1" pin="2" pinfunction="A" pintype="input"/>
+      <node ref="J15" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    </net>
+    <net code="33" name="Net-(D2-Pad2)">
+      <node ref="D2" pin="2" pinfunction="A" pintype="input"/>
+      <node ref="J57" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    </net>
+    <net code="34" name="Net-(D3-Pad2)">
+      <node ref="D3" pin="2" pinfunction="A" pintype="input"/>
+      <node ref="J59" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    </net>
+    <net code="35" name="Net-(J1-Pad1)">
+      <node ref="J1" pin="1" pinfunction="D2+" pintype="passive"/>
+      <node ref="J18" pin="2" pinfunction="VCC" pintype="passive"/>
+    </net>
+    <net code="36" name="Net-(J1-Pad3)">
+      <node ref="J1" pin="3" pinfunction="D2-" pintype="passive"/>
+      <node ref="J18" pin="3" pinfunction="SDA" pintype="passive"/>
+    </net>
+    <net code="37" name="Net-(J1-Pad4)">
+      <node ref="J1" pin="4" pinfunction="D1+" pintype="passive"/>
+      <node ref="J21" pin="2" pinfunction="VCC" pintype="passive"/>
+    </net>
+    <net code="38" name="Net-(J1-Pad6)">
+      <node ref="J1" pin="6" pinfunction="D1-" pintype="passive"/>
+      <node ref="J21" pin="3" pinfunction="SDA" pintype="passive"/>
+    </net>
+    <net code="39" name="Net-(J1-Pad7)">
+      <node ref="J1" pin="7" pinfunction="D0+" pintype="passive"/>
+      <node ref="J23" pin="2" pinfunction="VCC" pintype="passive"/>
+    </net>
+    <net code="40" name="Net-(J1-Pad9)">
+      <node ref="J1" pin="9" pinfunction="D0-" pintype="passive"/>
+      <node ref="J23" pin="3" pinfunction="SDA" pintype="passive"/>
+    </net>
+    <net code="41" name="Net-(J1-Pad10)">
+      <node ref="J1" pin="10" pinfunction="CK+" pintype="passive"/>
+      <node ref="J25" pin="2" pinfunction="VCC" pintype="passive"/>
+    </net>
+    <net code="42" name="Net-(J1-Pad12)">
+      <node ref="J1" pin="12" pinfunction="CK-" pintype="passive"/>
+      <node ref="J25" pin="3" pinfunction="SDA" pintype="passive"/>
+    </net>
+    <net code="43" name="Net-(J2-Pad1)">
+      <node ref="J2" pin="1" pinfunction="D2+" pintype="passive"/>
+      <node ref="J28" pin="2" pinfunction="VCC" pintype="passive"/>
+    </net>
+    <net code="44" name="Net-(J2-Pad3)">
+      <node ref="J2" pin="3" pinfunction="D2-" pintype="passive"/>
+      <node ref="J28" pin="3" pinfunction="SDA" pintype="passive"/>
+    </net>
+    <net code="45" name="Net-(J2-Pad4)">
+      <node ref="J2" pin="4" pinfunction="D1+" pintype="passive"/>
+      <node ref="J31" pin="2" pinfunction="VCC" pintype="passive"/>
+    </net>
+    <net code="46" name="Net-(J2-Pad6)">
+      <node ref="J2" pin="6" pinfunction="D1-" pintype="passive"/>
+      <node ref="J31" pin="3" pinfunction="SDA" pintype="passive"/>
+    </net>
+    <net code="47" name="Net-(J2-Pad7)">
+      <node ref="J2" pin="7" pinfunction="D0+" pintype="passive"/>
+      <node ref="J34" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    </net>
+    <net code="48" name="Net-(J2-Pad9)">
+      <node ref="J2" pin="9" pinfunction="D0-" pintype="passive"/>
+      <node ref="J34" pin="2" pinfunction="Pin_2" pintype="passive"/>
+    </net>
+    <net code="49" name="Net-(J2-Pad10)">
+      <node ref="J2" pin="10" pinfunction="CK+" pintype="passive"/>
+      <node ref="J36" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    </net>
+    <net code="50" name="Net-(J2-Pad12)">
+      <node ref="J2" pin="12" pinfunction="CK-" pintype="passive"/>
+      <node ref="J36" pin="2" pinfunction="Pin_2" pintype="passive"/>
+    </net>
+    <net code="51" name="Net-(J3-Pad1)">
+      <node ref="J3" pin="1" pinfunction="D2+" pintype="passive"/>
+      <node ref="J39" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    </net>
+    <net code="52" name="Net-(J3-Pad3)">
+      <node ref="J3" pin="3" pinfunction="D2-" pintype="passive"/>
+      <node ref="J39" pin="2" pinfunction="Pin_2" pintype="passive"/>
+    </net>
+    <net code="53" name="Net-(J3-Pad4)">
+      <node ref="J3" pin="4" pinfunction="D1+" pintype="passive"/>
+      <node ref="J41" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    </net>
+    <net code="54" name="Net-(J3-Pad6)">
+      <node ref="J3" pin="6" pinfunction="D1-" pintype="passive"/>
+      <node ref="J41" pin="2" pinfunction="Pin_2" pintype="passive"/>
+    </net>
+    <net code="55" name="Net-(J3-Pad7)">
+      <node ref="J3" pin="7" pinfunction="D0+" pintype="passive"/>
+      <node ref="J44" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    </net>
+    <net code="56" name="Net-(J3-Pad9)">
+      <node ref="J3" pin="9" pinfunction="D0-" pintype="passive"/>
+      <node ref="J44" pin="2" pinfunction="Pin_2" pintype="passive"/>
+    </net>
+    <net code="57" name="Net-(J3-Pad10)">
+      <node ref="J3" pin="10" pinfunction="CK+" pintype="passive"/>
+      <node ref="J46" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    </net>
+    <net code="58" name="Net-(J3-Pad12)">
+      <node ref="J3" pin="12" pinfunction="CK-" pintype="passive"/>
+      <node ref="J46" pin="2" pinfunction="Pin_2" pintype="passive"/>
+    </net>
+    <net code="59" name="Net-(J16-Pad1)">
+      <node ref="J16" pin="1" pinfunction="gnd" pintype="passive"/>
+      <node ref="J7" pin="4" pinfunction="D1+" pintype="passive"/>
+    </net>
+    <net code="60" name="Net-(J16-Pad2)">
+      <node ref="J16" pin="2" pinfunction="VCC" pintype="passive"/>
+      <node ref="J7" pin="1" pinfunction="D2+" pintype="passive"/>
+    </net>
+    <net code="61" name="Net-(J16-Pad3)">
+      <node ref="J16" pin="3" pinfunction="SDA" pintype="passive"/>
+      <node ref="J7" pin="3" pinfunction="D2-" pintype="passive"/>
+    </net>
+    <net code="62" name="Net-(J16-Pad4)">
+      <node ref="J16" pin="4" pinfunction="SCL" pintype="passive"/>
+      <node ref="J7" pin="6" pinfunction="D1-" pintype="passive"/>
+    </net>
+    <net code="63" name="Net-(J17-Pad2)">
+      <node ref="J17" pin="2" pinfunction="VCC" pintype="passive"/>
+      <node ref="J4" pin="1" pinfunction="D2+" pintype="passive"/>
+    </net>
+    <net code="64" name="Net-(J17-Pad3)">
+      <node ref="J17" pin="3" pinfunction="SDA" pintype="passive"/>
+      <node ref="J4" pin="3" pinfunction="D2-" pintype="passive"/>
+    </net>
+    <net code="65" name="Net-(J19-Pad2)">
+      <node ref="J19" pin="2" pinfunction="VCC" pintype="passive"/>
+      <node ref="J4" pin="4" pinfunction="D1+" pintype="passive"/>
+    </net>
+    <net code="66" name="Net-(J19-Pad3)">
+      <node ref="J19" pin="3" pinfunction="SDA" pintype="passive"/>
+      <node ref="J4" pin="6" pinfunction="D1-" pintype="passive"/>
+    </net>
+    <net code="67" name="Net-(J20-Pad1)">
+      <node ref="J20" pin="1" pinfunction="gnd" pintype="passive"/>
+      <node ref="J7" pin="10" pinfunction="CK+" pintype="passive"/>
+    </net>
+    <net code="68" name="Net-(J20-Pad2)">
+      <node ref="J20" pin="2" pinfunction="VCC" pintype="passive"/>
+      <node ref="J7" pin="7" pinfunction="D0+" pintype="passive"/>
+    </net>
+    <net code="69" name="Net-(J20-Pad3)">
+      <node ref="J20" pin="3" pinfunction="SDA" pintype="passive"/>
+      <node ref="J7" pin="9" pinfunction="D0-" pintype="passive"/>
+    </net>
+    <net code="70" name="Net-(J20-Pad4)">
+      <node ref="J20" pin="4" pinfunction="SCL" pintype="passive"/>
+      <node ref="J7" pin="12" pinfunction="CK-" pintype="passive"/>
+    </net>
+    <net code="71" name="Net-(J22-Pad2)">
+      <node ref="J22" pin="2" pinfunction="VCC" pintype="passive"/>
+      <node ref="J4" pin="7" pinfunction="D0+" pintype="passive"/>
+    </net>
+    <net code="72" name="Net-(J22-Pad3)">
+      <node ref="J22" pin="3" pinfunction="SDA" pintype="passive"/>
+      <node ref="J4" pin="9" pinfunction="D0-" pintype="passive"/>
+    </net>
+    <net code="73" name="Net-(J24-Pad2)">
+      <node ref="J24" pin="2" pinfunction="VCC" pintype="passive"/>
+      <node ref="J4" pin="10" pinfunction="CK+" pintype="passive"/>
+    </net>
+    <net code="74" name="Net-(J24-Pad3)">
+      <node ref="J24" pin="3" pinfunction="SDA" pintype="passive"/>
+      <node ref="J4" pin="12" pinfunction="CK-" pintype="passive"/>
+    </net>
+    <net code="75" name="Net-(J26-Pad2)">
+      <node ref="J26" pin="2" pinfunction="VCC" pintype="passive"/>
+      <node ref="J5" pin="1" pinfunction="D2+" pintype="passive"/>
+    </net>
+    <net code="76" name="Net-(J26-Pad3)">
+      <node ref="J26" pin="3" pinfunction="SDA" pintype="passive"/>
+      <node ref="J5" pin="3" pinfunction="D2-" pintype="passive"/>
+    </net>
+    <net code="77" name="Net-(J27-Pad1)">
+      <node ref="J27" pin="1" pinfunction="gnd" pintype="passive"/>
+      <node ref="J8" pin="4" pinfunction="D1+" pintype="passive"/>
+    </net>
+    <net code="78" name="Net-(J27-Pad2)">
+      <node ref="J27" pin="2" pinfunction="VCC" pintype="passive"/>
+      <node ref="J8" pin="1" pinfunction="D2+" pintype="passive"/>
+    </net>
+    <net code="79" name="Net-(J27-Pad3)">
+      <node ref="J27" pin="3" pinfunction="SDA" pintype="passive"/>
+      <node ref="J8" pin="3" pinfunction="D2-" pintype="passive"/>
+    </net>
+    <net code="80" name="Net-(J27-Pad4)">
+      <node ref="J27" pin="4" pinfunction="SCL" pintype="passive"/>
+      <node ref="J8" pin="6" pinfunction="D1-" pintype="passive"/>
+    </net>
+    <net code="81" name="Net-(J29-Pad2)">
+      <node ref="J29" pin="2" pinfunction="VCC" pintype="passive"/>
+      <node ref="J5" pin="4" pinfunction="D1+" pintype="passive"/>
+    </net>
+    <net code="82" name="Net-(J29-Pad3)">
+      <node ref="J29" pin="3" pinfunction="SDA" pintype="passive"/>
+      <node ref="J5" pin="6" pinfunction="D1-" pintype="passive"/>
+    </net>
+    <net code="83" name="Net-(J30-Pad1)">
+      <node ref="J30" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J8" pin="7" pinfunction="D0+" pintype="passive"/>
+    </net>
+    <net code="84" name="Net-(J30-Pad2)">
+      <node ref="J30" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J8" pin="9" pinfunction="D0-" pintype="passive"/>
+    </net>
+    <net code="85" name="Net-(J32-Pad1)">
+      <node ref="J32" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J8" pin="10" pinfunction="CK+" pintype="passive"/>
+    </net>
+    <net code="86" name="Net-(J32-Pad2)">
+      <node ref="J32" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J8" pin="12" pinfunction="CK-" pintype="passive"/>
+    </net>
+    <net code="87" name="Net-(J33-Pad1)">
+      <node ref="J33" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J5" pin="7" pinfunction="D0+" pintype="passive"/>
+    </net>
+    <net code="88" name="Net-(J33-Pad2)">
+      <node ref="J33" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J5" pin="9" pinfunction="D0-" pintype="passive"/>
+    </net>
+    <net code="89" name="Net-(J35-Pad1)">
+      <node ref="J35" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J5" pin="10" pinfunction="CK+" pintype="passive"/>
+    </net>
+    <net code="90" name="Net-(J35-Pad2)">
+      <node ref="J35" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J5" pin="12" pinfunction="CK-" pintype="passive"/>
+    </net>
+    <net code="91" name="Net-(J37-Pad1)">
+      <node ref="J37" pin="1" pinfunction="gnd" pintype="passive"/>
+      <node ref="J9" pin="4" pinfunction="D1+" pintype="passive"/>
+    </net>
+    <net code="92" name="Net-(J37-Pad2)">
+      <node ref="J37" pin="2" pinfunction="VCC" pintype="passive"/>
+      <node ref="J9" pin="1" pinfunction="D2+" pintype="passive"/>
+    </net>
+    <net code="93" name="Net-(J37-Pad3)">
+      <node ref="J37" pin="3" pinfunction="SDA" pintype="passive"/>
+      <node ref="J9" pin="3" pinfunction="D2-" pintype="passive"/>
+    </net>
+    <net code="94" name="Net-(J37-Pad4)">
+      <node ref="J37" pin="4" pinfunction="SCL" pintype="passive"/>
+      <node ref="J9" pin="6" pinfunction="D1-" pintype="passive"/>
+    </net>
+    <net code="95" name="Net-(J38-Pad1)">
+      <node ref="J38" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J6" pin="1" pinfunction="D2+" pintype="passive"/>
+    </net>
+    <net code="96" name="Net-(J38-Pad2)">
+      <node ref="J38" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J6" pin="3" pinfunction="D2-" pintype="passive"/>
+    </net>
+    <net code="97" name="Net-(J40-Pad1)">
+      <node ref="J40" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J6" pin="4" pinfunction="D1+" pintype="passive"/>
+    </net>
+    <net code="98" name="Net-(J40-Pad2)">
+      <node ref="J40" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J6" pin="6" pinfunction="D1-" pintype="passive"/>
+    </net>
+    <net code="99" name="Net-(J42-Pad1)">
+      <node ref="J42" pin="1" pinfunction="gnd" pintype="passive"/>
+      <node ref="J9" pin="10" pinfunction="CK+" pintype="passive"/>
+    </net>
+    <net code="100" name="Net-(J42-Pad2)">
+      <node ref="J42" pin="2" pinfunction="VCC" pintype="passive"/>
+      <node ref="J9" pin="7" pinfunction="D0+" pintype="passive"/>
+    </net>
+    <net code="101" name="Net-(J42-Pad3)">
+      <node ref="J42" pin="3" pinfunction="SDA" pintype="passive"/>
+      <node ref="J9" pin="9" pinfunction="D0-" pintype="passive"/>
+    </net>
+    <net code="102" name="Net-(J42-Pad4)">
+      <node ref="J42" pin="4" pinfunction="SCL" pintype="passive"/>
+      <node ref="J9" pin="12" pinfunction="CK-" pintype="passive"/>
+    </net>
+    <net code="103" name="Net-(J43-Pad1)">
+      <node ref="J43" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J6" pin="7" pinfunction="D0+" pintype="passive"/>
+    </net>
+    <net code="104" name="Net-(J43-Pad2)">
+      <node ref="J43" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J6" pin="9" pinfunction="D0-" pintype="passive"/>
+    </net>
+    <net code="105" name="Net-(J45-Pad1)">
+      <node ref="J45" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J6" pin="10" pinfunction="CK+" pintype="passive"/>
+    </net>
+    <net code="106" name="Net-(J45-Pad2)">
+      <node ref="J45" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J6" pin="12" pinfunction="CK-" pintype="passive"/>
+    </net>
+    <net code="107" name="Net-(J53-Pad1)">
+      <node ref="J53" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J58" pin="6" pinfunction="Pin_6" pintype="passive"/>
+    </net>
+    <net code="108" name="Net-(J53-Pad2)">
+      <node ref="J53" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J58" pin="5" pinfunction="Pin_5" pintype="passive"/>
+    </net>
+    <net code="109" name="Net-(J53-Pad3)">
+      <node ref="J53" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J58" pin="4" pinfunction="Pin_4" pintype="passive"/>
+    </net>
+    <net code="110" name="Net-(J53-Pad4)">
+      <node ref="J53" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="J58" pin="3" pinfunction="Pin_3" pintype="passive"/>
+    </net>
+    <net code="111" name="Net-(J59-Pad4)">
+      <node ref="J59" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="J61" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    </net>
+    <net code="112" name="Net-(J59-Pad5)">
+      <node ref="J59" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="J61" pin="2" pinfunction="Pin_2" pintype="passive"/>
+    </net>
+    <net code="113" name="Net-(J59-Pad6)">
+      <node ref="J59" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="J61" pin="3" pinfunction="Pin_3" pintype="passive"/>
+    </net>
+    <net code="114" name="Net-(J62-Pad1)">
+      <node ref="J62" pin="1" pinfunction="gnd" pintype="passive"/>
+      <node ref="J63" pin="1" pinfunction="gnd" pintype="passive"/>
+      <node ref="J64" pin="1" pinfunction="gnd" pintype="passive"/>
+      <node ref="J65" pin="1" pinfunction="gnd" pintype="passive"/>
+      <node ref="J66" pin="1" pinfunction="gnd" pintype="passive"/>
+    </net>
+    <net code="115" name="Net-(J62-Pad2)">
+      <node ref="J62" pin="2" pinfunction="VCC" pintype="passive"/>
+      <node ref="J63" pin="2" pinfunction="VCC" pintype="passive"/>
+      <node ref="J64" pin="2" pinfunction="VCC" pintype="passive"/>
+      <node ref="J65" pin="2" pinfunction="VCC" pintype="passive"/>
+      <node ref="J66" pin="2" pinfunction="VCC" pintype="passive"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+    </net>
+    <net code="116" name="Net-(J62-Pad3)">
+      <node ref="J62" pin="3" pinfunction="SDA" pintype="passive"/>
+      <node ref="J63" pin="3" pinfunction="SDA" pintype="passive"/>
+      <node ref="J64" pin="3" pinfunction="SDA" pintype="passive"/>
+      <node ref="J65" pin="3" pinfunction="SDA" pintype="passive"/>
+      <node ref="J66" pin="3" pinfunction="SDA" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+    </net>
+    <net code="117" name="Net-(J62-Pad4)">
+      <node ref="J62" pin="4" pinfunction="SCL" pintype="passive"/>
+      <node ref="J63" pin="4" pinfunction="SCL" pintype="passive"/>
+      <node ref="J64" pin="4" pinfunction="SCL" pintype="passive"/>
+      <node ref="J65" pin="4" pinfunction="SCL" pintype="passive"/>
+      <node ref="J66" pin="4" pinfunction="SCL" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+    </net>
+    <net code="118" name="unconnected-(J1-Pad13)">
+      <node ref="J1" pin="13" pinfunction="CEC" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="119" name="unconnected-(J1-Pad14)">
+      <node ref="J1" pin="14" pinfunction="UTILITY/HEAC+" pintype="passive+no_connect"/>
+    </net>
+    <net code="120" name="unconnected-(J1-Pad15)">
+      <node ref="J1" pin="15" pinfunction="SCL" pintype="passive+no_connect"/>
+    </net>
+    <net code="121" name="unconnected-(J1-Pad16)">
+      <node ref="J1" pin="16" pinfunction="SDA" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="122" name="unconnected-(J1-Pad18)">
+      <node ref="J1" pin="18" pinfunction="+5V" pintype="power_in+no_connect"/>
+    </net>
+    <net code="123" name="unconnected-(J1-Pad19)">
+      <node ref="J1" pin="19" pinfunction="HPD/HEAC-" pintype="passive+no_connect"/>
+    </net>
+    <net code="124" name="unconnected-(J2-Pad13)">
+      <node ref="J2" pin="13" pinfunction="CEC" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="125" name="unconnected-(J2-Pad14)">
+      <node ref="J2" pin="14" pinfunction="UTILITY/HEAC+" pintype="passive+no_connect"/>
+    </net>
+    <net code="126" name="unconnected-(J2-Pad15)">
+      <node ref="J2" pin="15" pinfunction="SCL" pintype="passive+no_connect"/>
+    </net>
+    <net code="127" name="unconnected-(J2-Pad16)">
+      <node ref="J2" pin="16" pinfunction="SDA" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="128" name="unconnected-(J2-Pad18)">
+      <node ref="J2" pin="18" pinfunction="+5V" pintype="power_in+no_connect"/>
+    </net>
+    <net code="129" name="unconnected-(J2-Pad19)">
+      <node ref="J2" pin="19" pinfunction="HPD/HEAC-" pintype="passive+no_connect"/>
+    </net>
+    <net code="130" name="unconnected-(J3-Pad13)">
+      <node ref="J3" pin="13" pinfunction="CEC" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="131" name="unconnected-(J3-Pad14)">
+      <node ref="J3" pin="14" pinfunction="UTILITY/HEAC+" pintype="passive+no_connect"/>
+    </net>
+    <net code="132" name="unconnected-(J3-Pad15)">
+      <node ref="J3" pin="15" pinfunction="SCL" pintype="passive+no_connect"/>
+    </net>
+    <net code="133" name="unconnected-(J3-Pad16)">
+      <node ref="J3" pin="16" pinfunction="SDA" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="134" name="unconnected-(J3-Pad18)">
+      <node ref="J3" pin="18" pinfunction="+5V" pintype="power_in+no_connect"/>
+    </net>
+    <net code="135" name="unconnected-(J3-Pad19)">
+      <node ref="J3" pin="19" pinfunction="HPD/HEAC-" pintype="passive+no_connect"/>
+    </net>
+    <net code="136" name="unconnected-(J4-Pad13)">
+      <node ref="J4" pin="13" pinfunction="CEC" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="137" name="unconnected-(J4-Pad14)">
+      <node ref="J4" pin="14" pinfunction="UTILITY/HEAC+" pintype="passive+no_connect"/>
+    </net>
+    <net code="138" name="unconnected-(J4-Pad15)">
+      <node ref="J4" pin="15" pinfunction="SCL" pintype="passive+no_connect"/>
+    </net>
+    <net code="139" name="unconnected-(J4-Pad16)">
+      <node ref="J4" pin="16" pinfunction="SDA" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="140" name="unconnected-(J4-Pad18)">
+      <node ref="J4" pin="18" pinfunction="+5V" pintype="power_in+no_connect"/>
+    </net>
+    <net code="141" name="unconnected-(J4-Pad19)">
+      <node ref="J4" pin="19" pinfunction="HPD/HEAC-" pintype="passive+no_connect"/>
+    </net>
+    <net code="142" name="unconnected-(J5-Pad13)">
+      <node ref="J5" pin="13" pinfunction="CEC" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="143" name="unconnected-(J5-Pad14)">
+      <node ref="J5" pin="14" pinfunction="UTILITY/HEAC+" pintype="passive+no_connect"/>
+    </net>
+    <net code="144" name="unconnected-(J5-Pad15)">
+      <node ref="J5" pin="15" pinfunction="SCL" pintype="passive+no_connect"/>
+    </net>
+    <net code="145" name="unconnected-(J5-Pad16)">
+      <node ref="J5" pin="16" pinfunction="SDA" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="146" name="unconnected-(J5-Pad18)">
+      <node ref="J5" pin="18" pinfunction="+5V" pintype="power_in+no_connect"/>
+    </net>
+    <net code="147" name="unconnected-(J5-Pad19)">
+      <node ref="J5" pin="19" pinfunction="HPD/HEAC-" pintype="passive+no_connect"/>
+    </net>
+    <net code="148" name="unconnected-(J6-Pad13)">
+      <node ref="J6" pin="13" pinfunction="CEC" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="149" name="unconnected-(J6-Pad14)">
+      <node ref="J6" pin="14" pinfunction="UTILITY/HEAC+" pintype="passive+no_connect"/>
+    </net>
+    <net code="150" name="unconnected-(J6-Pad15)">
+      <node ref="J6" pin="15" pinfunction="SCL" pintype="passive+no_connect"/>
+    </net>
+    <net code="151" name="unconnected-(J6-Pad16)">
+      <node ref="J6" pin="16" pinfunction="SDA" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="152" name="unconnected-(J6-Pad18)">
+      <node ref="J6" pin="18" pinfunction="+5V" pintype="power_in+no_connect"/>
+    </net>
+    <net code="153" name="unconnected-(J6-Pad19)">
+      <node ref="J6" pin="19" pinfunction="HPD/HEAC-" pintype="passive+no_connect"/>
+    </net>
+    <net code="154" name="unconnected-(J7-Pad13)">
+      <node ref="J7" pin="13" pinfunction="CEC" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="155" name="unconnected-(J7-Pad14)">
+      <node ref="J7" pin="14" pinfunction="UTILITY/HEAC+" pintype="passive+no_connect"/>
+    </net>
+    <net code="156" name="unconnected-(J7-Pad15)">
+      <node ref="J7" pin="15" pinfunction="SCL" pintype="passive+no_connect"/>
+    </net>
+    <net code="157" name="unconnected-(J7-Pad16)">
+      <node ref="J7" pin="16" pinfunction="SDA" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="158" name="unconnected-(J7-Pad18)">
+      <node ref="J7" pin="18" pinfunction="+5V" pintype="power_in+no_connect"/>
+    </net>
+    <net code="159" name="unconnected-(J7-Pad19)">
+      <node ref="J7" pin="19" pinfunction="HPD/HEAC-" pintype="passive+no_connect"/>
+    </net>
+    <net code="160" name="unconnected-(J8-Pad13)">
+      <node ref="J8" pin="13" pinfunction="CEC" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="161" name="unconnected-(J8-Pad14)">
+      <node ref="J8" pin="14" pinfunction="UTILITY/HEAC+" pintype="passive+no_connect"/>
+    </net>
+    <net code="162" name="unconnected-(J8-Pad15)">
+      <node ref="J8" pin="15" pinfunction="SCL" pintype="passive+no_connect"/>
+    </net>
+    <net code="163" name="unconnected-(J8-Pad16)">
+      <node ref="J8" pin="16" pinfunction="SDA" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="164" name="unconnected-(J8-Pad18)">
+      <node ref="J8" pin="18" pinfunction="+5V" pintype="power_in+no_connect"/>
+    </net>
+    <net code="165" name="unconnected-(J8-Pad19)">
+      <node ref="J8" pin="19" pinfunction="HPD/HEAC-" pintype="passive+no_connect"/>
+    </net>
+    <net code="166" name="unconnected-(J9-Pad13)">
+      <node ref="J9" pin="13" pinfunction="CEC" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="167" name="unconnected-(J9-Pad14)">
+      <node ref="J9" pin="14" pinfunction="UTILITY/HEAC+" pintype="passive+no_connect"/>
+    </net>
+    <net code="168" name="unconnected-(J9-Pad15)">
+      <node ref="J9" pin="15" pinfunction="SCL" pintype="passive+no_connect"/>
+    </net>
+    <net code="169" name="unconnected-(J9-Pad16)">
+      <node ref="J9" pin="16" pinfunction="SDA" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="170" name="unconnected-(J9-Pad18)">
+      <node ref="J9" pin="18" pinfunction="+5V" pintype="power_in+no_connect"/>
+    </net>
+    <net code="171" name="unconnected-(J9-Pad19)">
+      <node ref="J9" pin="19" pinfunction="HPD/HEAC-" pintype="passive+no_connect"/>
+    </net>
+    <net code="172" name="unconnected-(J17-Pad1)">
+      <node ref="J17" pin="1" pinfunction="gnd" pintype="passive+no_connect"/>
+    </net>
+    <net code="173" name="unconnected-(J17-Pad4)">
+      <node ref="J17" pin="4" pinfunction="SCL" pintype="passive+no_connect"/>
+    </net>
+    <net code="174" name="unconnected-(J18-Pad1)">
+      <node ref="J18" pin="1" pinfunction="gnd" pintype="passive+no_connect"/>
+    </net>
+    <net code="175" name="unconnected-(J18-Pad4)">
+      <node ref="J18" pin="4" pinfunction="SCL" pintype="passive+no_connect"/>
+    </net>
+    <net code="176" name="unconnected-(J19-Pad1)">
+      <node ref="J19" pin="1" pinfunction="gnd" pintype="passive+no_connect"/>
+    </net>
+    <net code="177" name="unconnected-(J19-Pad4)">
+      <node ref="J19" pin="4" pinfunction="SCL" pintype="passive+no_connect"/>
+    </net>
+    <net code="178" name="unconnected-(J21-Pad1)">
+      <node ref="J21" pin="1" pinfunction="gnd" pintype="passive+no_connect"/>
+    </net>
+    <net code="179" name="unconnected-(J21-Pad4)">
+      <node ref="J21" pin="4" pinfunction="SCL" pintype="passive+no_connect"/>
+    </net>
+    <net code="180" name="unconnected-(J22-Pad1)">
+      <node ref="J22" pin="1" pinfunction="gnd" pintype="passive+no_connect"/>
+    </net>
+    <net code="181" name="unconnected-(J22-Pad4)">
+      <node ref="J22" pin="4" pinfunction="SCL" pintype="passive+no_connect"/>
+    </net>
+    <net code="182" name="unconnected-(J23-Pad1)">
+      <node ref="J23" pin="1" pinfunction="gnd" pintype="passive+no_connect"/>
+    </net>
+    <net code="183" name="unconnected-(J23-Pad4)">
+      <node ref="J23" pin="4" pinfunction="SCL" pintype="passive+no_connect"/>
+    </net>
+    <net code="184" name="unconnected-(J24-Pad1)">
+      <node ref="J24" pin="1" pinfunction="gnd" pintype="passive+no_connect"/>
+    </net>
+    <net code="185" name="unconnected-(J24-Pad4)">
+      <node ref="J24" pin="4" pinfunction="SCL" pintype="passive+no_connect"/>
+    </net>
+    <net code="186" name="unconnected-(J25-Pad1)">
+      <node ref="J25" pin="1" pinfunction="gnd" pintype="passive+no_connect"/>
+    </net>
+    <net code="187" name="unconnected-(J25-Pad4)">
+      <node ref="J25" pin="4" pinfunction="SCL" pintype="passive+no_connect"/>
+    </net>
+    <net code="188" name="unconnected-(J26-Pad1)">
+      <node ref="J26" pin="1" pinfunction="gnd" pintype="passive+no_connect"/>
+    </net>
+    <net code="189" name="unconnected-(J26-Pad4)">
+      <node ref="J26" pin="4" pinfunction="SCL" pintype="passive+no_connect"/>
+    </net>
+    <net code="190" name="unconnected-(J28-Pad1)">
+      <node ref="J28" pin="1" pinfunction="gnd" pintype="passive+no_connect"/>
+    </net>
+    <net code="191" name="unconnected-(J28-Pad4)">
+      <node ref="J28" pin="4" pinfunction="SCL" pintype="passive+no_connect"/>
+    </net>
+    <net code="192" name="unconnected-(J29-Pad1)">
+      <node ref="J29" pin="1" pinfunction="gnd" pintype="passive+no_connect"/>
+    </net>
+    <net code="193" name="unconnected-(J29-Pad4)">
+      <node ref="J29" pin="4" pinfunction="SCL" pintype="passive+no_connect"/>
+    </net>
+    <net code="194" name="unconnected-(J31-Pad1)">
+      <node ref="J31" pin="1" pinfunction="gnd" pintype="passive+no_connect"/>
+    </net>
+    <net code="195" name="unconnected-(J31-Pad4)">
+      <node ref="J31" pin="4" pinfunction="SCL" pintype="passive+no_connect"/>
+    </net>
+    <net code="196" name="unconnected-(USB1-PadA5)">
+      <node ref="USB1" pin="A5" pinfunction="CC1" pintype="input+no_connect"/>
+    </net>
+    <net code="197" name="unconnected-(USB1-PadB5)">
+      <node ref="USB1" pin="B5" pinfunction="CC2" pintype="input+no_connect"/>
+    </net>
+    <net code="198" name="unconnected-(USB2-Pad2)">
+      <node ref="USB2" pin="2" pinfunction="D-" pintype="input+no_connect"/>
+    </net>
+    <net code="199" name="unconnected-(USB2-Pad3)">
+      <node ref="USB2" pin="3" pinfunction="D+" pintype="input+no_connect"/>
+    </net>
+  </nets>
+</export>

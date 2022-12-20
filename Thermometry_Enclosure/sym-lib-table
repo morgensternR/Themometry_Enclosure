@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name "0Therm_Enclosure")(type "KiCad")(uri "${KIPRJMOD}/Parts/0Therm_Enclosure.kicad_sym")(options "")(descr ""))
+)
