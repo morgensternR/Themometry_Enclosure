@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>C:\Users\rdm8\Documents\GitHub\Themometry_Enclosure\Thermometry_Enclosure\Thermometry_Enclosure.kicad_sch</source>
-    <date>12/19/2022 4:40:42 PM</date>
+    <date>12/30/2022 3:29:50 PM</date>
     <tool>Eeschema (6.0.5)</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -539,10 +539,10 @@
       <value>Conn_01x07_Female</value>
       <footprint>Connector_PinSocket_2.54mm:PinSocket_1x07_P2.54mm_Vertical</footprint>
       <fields>
-        <field name="LCSC">C124418</field>
+        <field name="LCSC">C2897370</field>
       </fields>
       <libsource lib="Connector" part="Conn_01x07_Female" description="Generic connector, single row, 01x07, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
-      <property name="LCSC" value="C124418"/>
+      <property name="LCSC" value="C2897370"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Thermometry_Enclosure.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -552,10 +552,10 @@
       <value>Conn_01x07_Female</value>
       <footprint>Connector_PinSocket_2.54mm:PinSocket_1x07_P2.54mm_Vertical</footprint>
       <fields>
-        <field name="LCSC">C124418</field>
+        <field name="LCSC">C2897370</field>
       </fields>
       <libsource lib="Connector" part="Conn_01x07_Female" description="Generic connector, single row, 01x07, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
-      <property name="LCSC" value="C124418"/>
+      <property name="LCSC" value="C2897370"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Thermometry_Enclosure.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -661,10 +661,10 @@
       <value>Conn_01x07_Female</value>
       <footprint>Connector_PinSocket_2.54mm:PinSocket_1x07_P2.54mm_Vertical</footprint>
       <fields>
-        <field name="LCSC">C124418</field>
+        <field name="LCSC">C2897370</field>
       </fields>
       <libsource lib="Connector" part="Conn_01x07_Female" description="Generic connector, single row, 01x07, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
-      <property name="LCSC" value="C124418"/>
+      <property name="LCSC" value="C2897370"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Thermometry_Enclosure.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -687,10 +687,10 @@
       <value>Conn_01x07_Female</value>
       <footprint>Connector_PinSocket_2.54mm:PinSocket_1x07_P2.54mm_Vertical</footprint>
       <fields>
-        <field name="LCSC">C124418</field>
+        <field name="LCSC">C2897370</field>
       </fields>
       <libsource lib="Connector" part="Conn_01x07_Female" description="Generic connector, single row, 01x07, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
-      <property name="LCSC" value="C124418"/>
+      <property name="LCSC" value="C2897370"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Thermometry_Enclosure.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -700,10 +700,10 @@
       <value>Conn_01x07_Female</value>
       <footprint>Connector_PinSocket_2.54mm:PinSocket_1x07_P2.54mm_Vertical</footprint>
       <fields>
-        <field name="LCSC">C124418</field>
+        <field name="LCSC">C2897370</field>
       </fields>
       <libsource lib="Connector" part="Conn_01x07_Female" description="Generic connector, single row, 01x07, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
-      <property name="LCSC" value="C124418"/>
+      <property name="LCSC" value="C2897370"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Thermometry_Enclosure.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -713,10 +713,10 @@
       <value>Conn_01x07_Female</value>
       <footprint>Connector_PinSocket_2.54mm:PinSocket_1x07_P2.54mm_Vertical</footprint>
       <fields>
-        <field name="LCSC">C124418</field>
+        <field name="LCSC">C2897370</field>
       </fields>
       <libsource lib="Connector" part="Conn_01x07_Female" description="Generic connector, single row, 01x07, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
-      <property name="LCSC" value="C124418"/>
+      <property name="LCSC" value="C2897370"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Thermometry_Enclosure.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -803,13 +803,13 @@
     </comp>
     <comp ref="J1">
       <value>HDMI_A_1.4</value>
-      <footprint>0Library:HDMI-TH_HDMI-019A</footprint>
+      <footprint>0Library:HDMI-TH_HYC12-HDMIA19-61</footprint>
       <datasheet>https://en.wikipedia.org/wiki/HDMI</datasheet>
       <fields>
-        <field name="LCSC">C369072</field>
+        <field name="LCSC">C711354</field>
       </fields>
       <libsource lib="Connector" part="HDMI_A_1.4" description="HDMI 1.4+ type A connector"/>
-      <property name="LCSC" value="C369072"/>
+      <property name="LCSC" value="C711354"/>
       <property name="Sheetname" value="HDMI Ports"/>
       <property name="Sheetfile" value="HDMI_ports.kicad_sch"/>
       <sheetpath names="/HDMI Ports/" tstamps="/1177b381-35f4-4300-ae70-b7e5fb7ae7dc/"/>
@@ -817,13 +817,13 @@
     </comp>
     <comp ref="J2">
       <value>HDMI_A_1.4</value>
-      <footprint>0Library:HDMI-TH_HDMI-019A</footprint>
+      <footprint>0Library:HDMI-TH_HYC12-HDMIA19-61</footprint>
       <datasheet>https://en.wikipedia.org/wiki/HDMI</datasheet>
       <fields>
-        <field name="LCSC">C369072</field>
+        <field name="LCSC">C711354</field>
       </fields>
       <libsource lib="Connector" part="HDMI_A_1.4" description="HDMI 1.4+ type A connector"/>
-      <property name="LCSC" value="C369072"/>
+      <property name="LCSC" value="C711354"/>
       <property name="Sheetname" value="HDMI Ports"/>
       <property name="Sheetfile" value="HDMI_ports.kicad_sch"/>
       <sheetpath names="/HDMI Ports/" tstamps="/1177b381-35f4-4300-ae70-b7e5fb7ae7dc/"/>
@@ -831,13 +831,13 @@
     </comp>
     <comp ref="J3">
       <value>HDMI_A_1.4</value>
-      <footprint>0Library:HDMI-TH_HDMI-019A</footprint>
+      <footprint>0Library:HDMI-TH_HYC12-HDMIA19-61</footprint>
       <datasheet>https://en.wikipedia.org/wiki/HDMI</datasheet>
       <fields>
-        <field name="LCSC">C369072</field>
+        <field name="LCSC">C711354</field>
       </fields>
       <libsource lib="Connector" part="HDMI_A_1.4" description="HDMI 1.4+ type A connector"/>
-      <property name="LCSC" value="C369072"/>
+      <property name="LCSC" value="C711354"/>
       <property name="Sheetname" value="HDMI Ports"/>
       <property name="Sheetfile" value="HDMI_ports.kicad_sch"/>
       <sheetpath names="/HDMI Ports/" tstamps="/1177b381-35f4-4300-ae70-b7e5fb7ae7dc/"/>
@@ -845,13 +845,13 @@
     </comp>
     <comp ref="J4">
       <value>HDMI_A_1.4</value>
-      <footprint>0Library:HDMI-TH_HDMI-019A</footprint>
+      <footprint>0Library:HDMI-TH_HYC12-HDMIA19-61</footprint>
       <datasheet>https://en.wikipedia.org/wiki/HDMI</datasheet>
       <fields>
-        <field name="LCSC">C369072</field>
+        <field name="LCSC">C711354</field>
       </fields>
       <libsource lib="Connector" part="HDMI_A_1.4" description="HDMI 1.4+ type A connector"/>
-      <property name="LCSC" value="C369072"/>
+      <property name="LCSC" value="C711354"/>
       <property name="Sheetname" value="HDMI Ports"/>
       <property name="Sheetfile" value="HDMI_ports.kicad_sch"/>
       <sheetpath names="/HDMI Ports/" tstamps="/1177b381-35f4-4300-ae70-b7e5fb7ae7dc/"/>
@@ -859,13 +859,13 @@
     </comp>
     <comp ref="J5">
       <value>HDMI_A_1.4</value>
-      <footprint>0Library:HDMI-TH_HDMI-019A</footprint>
+      <footprint>0Library:HDMI-TH_HYC12-HDMIA19-61</footprint>
       <datasheet>https://en.wikipedia.org/wiki/HDMI</datasheet>
       <fields>
-        <field name="LCSC">C369072</field>
+        <field name="LCSC">C711354</field>
       </fields>
       <libsource lib="Connector" part="HDMI_A_1.4" description="HDMI 1.4+ type A connector"/>
-      <property name="LCSC" value="C369072"/>
+      <property name="LCSC" value="C711354"/>
       <property name="Sheetname" value="HDMI Ports"/>
       <property name="Sheetfile" value="HDMI_ports.kicad_sch"/>
       <sheetpath names="/HDMI Ports/" tstamps="/1177b381-35f4-4300-ae70-b7e5fb7ae7dc/"/>
@@ -873,13 +873,13 @@
     </comp>
     <comp ref="J6">
       <value>HDMI_A_1.4</value>
-      <footprint>0Library:HDMI-TH_HDMI-019A</footprint>
+      <footprint>0Library:HDMI-TH_HYC12-HDMIA19-61</footprint>
       <datasheet>https://en.wikipedia.org/wiki/HDMI</datasheet>
       <fields>
-        <field name="LCSC">C369072</field>
+        <field name="LCSC">C711354</field>
       </fields>
       <libsource lib="Connector" part="HDMI_A_1.4" description="HDMI 1.4+ type A connector"/>
-      <property name="LCSC" value="C369072"/>
+      <property name="LCSC" value="C711354"/>
       <property name="Sheetname" value="HDMI Ports"/>
       <property name="Sheetfile" value="HDMI_ports.kicad_sch"/>
       <sheetpath names="/HDMI Ports/" tstamps="/1177b381-35f4-4300-ae70-b7e5fb7ae7dc/"/>
@@ -887,13 +887,13 @@
     </comp>
     <comp ref="J7">
       <value>HDMI_A_1.4</value>
-      <footprint>0Library:HDMI-TH_HDMI-019A</footprint>
+      <footprint>0Library:HDMI-TH_HYC12-HDMIA19-61</footprint>
       <datasheet>https://en.wikipedia.org/wiki/HDMI</datasheet>
       <fields>
-        <field name="LCSC">C369072</field>
+        <field name="LCSC">C711354</field>
       </fields>
       <libsource lib="Connector" part="HDMI_A_1.4" description="HDMI 1.4+ type A connector"/>
-      <property name="LCSC" value="C369072"/>
+      <property name="LCSC" value="C711354"/>
       <property name="Sheetname" value="HDMI Ports"/>
       <property name="Sheetfile" value="HDMI_ports.kicad_sch"/>
       <sheetpath names="/HDMI Ports/" tstamps="/1177b381-35f4-4300-ae70-b7e5fb7ae7dc/"/>
@@ -901,13 +901,13 @@
     </comp>
     <comp ref="J8">
       <value>HDMI_A_1.4</value>
-      <footprint>0Library:HDMI-TH_HDMI-019A</footprint>
+      <footprint>0Library:HDMI-TH_HYC12-HDMIA19-61</footprint>
       <datasheet>https://en.wikipedia.org/wiki/HDMI</datasheet>
       <fields>
-        <field name="LCSC">C369072</field>
+        <field name="LCSC">C711354</field>
       </fields>
       <libsource lib="Connector" part="HDMI_A_1.4" description="HDMI 1.4+ type A connector"/>
-      <property name="LCSC" value="C369072"/>
+      <property name="LCSC" value="C711354"/>
       <property name="Sheetname" value="HDMI Ports"/>
       <property name="Sheetfile" value="HDMI_ports.kicad_sch"/>
       <sheetpath names="/HDMI Ports/" tstamps="/1177b381-35f4-4300-ae70-b7e5fb7ae7dc/"/>
@@ -915,13 +915,13 @@
     </comp>
     <comp ref="J9">
       <value>HDMI_A_1.4</value>
-      <footprint>0Library:HDMI-TH_HDMI-019A</footprint>
+      <footprint>0Library:HDMI-TH_HYC12-HDMIA19-61</footprint>
       <datasheet>https://en.wikipedia.org/wiki/HDMI</datasheet>
       <fields>
-        <field name="LCSC">C369072</field>
+        <field name="LCSC">C711354</field>
       </fields>
       <libsource lib="Connector" part="HDMI_A_1.4" description="HDMI 1.4+ type A connector"/>
-      <property name="LCSC" value="C369072"/>
+      <property name="LCSC" value="C711354"/>
       <property name="Sheetname" value="HDMI Ports"/>
       <property name="Sheetfile" value="HDMI_ports.kicad_sch"/>
       <sheetpath names="/HDMI Ports/" tstamps="/1177b381-35f4-4300-ae70-b7e5fb7ae7dc/"/>
