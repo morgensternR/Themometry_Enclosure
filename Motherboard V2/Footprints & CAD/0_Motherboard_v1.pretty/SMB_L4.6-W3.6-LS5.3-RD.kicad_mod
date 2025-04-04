@@ -1,0 +1,107 @@
+(footprint "SMB_L4.6-W3.6-LS5.3-RD" (version 20221018) (generator pcbnew)
+  (layer "F.Cu")
+  (attr through_hole)
+  (fp_text reference "REF**" (at 0 -3.207) (layer "F.SilkS")
+      (effects (font (size 1 1) (thickness 0.15)) (justify left))
+    (tstamp a617d34a-9318-497b-9879-52f7027bcf9c)
+  )
+  (fp_text value "std:c3877d0b949642049a574ec29fa86cb0" (at 0 -0.667) (layer "F.Fab")
+      (effects (font (size 1 1) (thickness 0.15)) (justify left))
+    (tstamp d67ddb67-9897-4b32-a7d9-08d0eb95c58f)
+  )
+  (fp_line (start -2.744 -1.886) (end 2.744 -1.886)
+    (stroke (width 0.152) (type solid)) (layer "F.SilkS") (tstamp 255350b7-a851-4c7d-b7df-55089dc13d60))
+  (fp_line (start -2.744 1.886) (end 2.744 1.886)
+    (stroke (width 0.152) (type solid)) (layer "F.SilkS") (tstamp d706dd1c-013e-4fcc-a1d8-93d038c8d609))
+  (fp_line (start -1.016 -1.886) (end -1.016 1.886)
+    (stroke (width 0.152) (type solid)) (layer "F.SilkS") (tstamp ef65efcc-e243-44c4-aa6b-67170df810c7))
+  (fp_line (start 2.744 -1.886) (end 2.744 -1.299)
+    (stroke (width 0.152) (type solid)) (layer "F.SilkS") (tstamp f9119186-4c15-4125-9e81-aec6bcc0cd1c))
+  (fp_line (start 2.744 1.886) (end 2.744 1.299)
+    (stroke (width 0.152) (type solid)) (layer "F.SilkS") (tstamp eb2b98d1-33dd-4637-99a7-a0ab290e1afc))
+  (fp_poly
+    (pts
+      (xy -2.668 -1.962)
+      (xy -2.668 -1.249)
+      (xy -3.125 -1.249)
+      (xy -3.125 -1.962)
+    )
+
+    (stroke (width 0.12) (type solid)) (fill solid) (layer "F.SilkS") (tstamp 81a5bc0f-ebc9-47b4-aa3f-70559e89162c))
+  (fp_poly
+    (pts
+      (xy -2.668 1.962)
+      (xy -2.668 1.249)
+      (xy -3.125 1.249)
+      (xy -3.125 1.962)
+    )
+
+    (stroke (width 0.12) (type solid)) (fill solid) (layer "F.SilkS") (tstamp 11b452ab-036a-4716-97dc-6b081589de5e))
+  (fp_poly
+    (pts
+      (xy -2.396 0.136)
+      (xy -2.396 -0.136)
+      (xy -1.31 -0.136)
+      (xy -1.31 0.136)
+    )
+
+    (stroke (width 0.12) (type solid)) (fill solid) (layer "Dwgs.User") (tstamp 41c5703d-d0e6-4ddd-886b-1f32c44f0497))
+  (fp_poly
+    (pts
+      (xy 1.989 0.905)
+      (xy 1.989 -0.905)
+      (xy 1.717 -0.905)
+      (xy 1.717 0.905)
+    )
+
+    (stroke (width 0.12) (type solid)) (fill solid) (layer "Dwgs.User") (tstamp 23557fd0-39fc-4485-a8cd-6aa920e78a9b))
+  (fp_poly
+    (pts
+      (xy 2.396 0.136)
+      (xy 2.396 -0.136)
+      (xy 1.31 -0.136)
+      (xy 1.31 0.136)
+    )
+
+    (stroke (width 0.12) (type solid)) (fill solid) (layer "Dwgs.User") (tstamp 34062209-75f8-4fe3-92f5-df27fcb650d0))
+  (fp_circle (center -2.649 1.8) (end -2.62 1.8)
+    (stroke (width 0.06) (type solid)) (fill none) (layer "Eco2.User") (tstamp fe778412-57e4-4510-9dbf-8d1188caa7bd))
+  (fp_poly
+    (pts
+      (xy -2.649 1.015)
+      (xy -2.649 -1.015)
+      (xy -1.509 -1.015)
+      (xy -1.509 1.015)
+    )
+
+    (stroke (width 0.12) (type solid)) (fill solid) (layer "Eco2.User") (tstamp 4166a935-38e2-493e-a0fb-edeab28c42ba))
+  (fp_poly
+    (pts
+      (xy 2.649 1.015)
+      (xy 2.649 -1.015)
+      (xy 1.509 -1.015)
+      (xy 1.509 1.015)
+    )
+
+    (stroke (width 0.12) (type solid)) (fill solid) (layer "Eco2.User") (tstamp 217c5ea1-d689-4d39-931e-e838091785d2))
+  (fp_line (start -2.3 -1.8) (end 2.3 -1.8)
+    (stroke (width 0.12) (type solid)) (layer "F.CrtYd") (tstamp dcb9d35d-f8fa-436a-8cb1-348fbaf7b5ea))
+  (fp_line (start -2.3 1.8) (end -2.3 -1.8)
+    (stroke (width 0.12) (type solid)) (layer "F.CrtYd") (tstamp 1c97375b-38ac-4d8b-beee-82c7613a1bff))
+  (fp_line (start 2.3 -1.8) (end 2.3 1.8)
+    (stroke (width 0.12) (type solid)) (layer "F.CrtYd") (tstamp 4323fc37-08d3-4ad2-8035-70112df80c8c))
+  (fp_line (start 2.3 1.8) (end -2.3 1.8)
+    (stroke (width 0.12) (type solid)) (layer "F.CrtYd") (tstamp 7749e0a3-e8cd-4ba2-847b-39403d286fd0))
+  (pad "1" smd rect (at -2.361 0) (size 2.047 2.192) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 9793cee7-a312-4123-a5a9-aa5336a9fa50))
+  (pad "2" smd rect (at 2.361 0) (size 2.047 2.192) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp c35b908e-e8f8-4355-bc58-8a8337a08277))
+  (model "${KIPRJMOD}/kicad_lceda.3dshapes/SMB_L4.6-W3.6-LS5.3-RD.step"
+    (offset (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
+  (model "${KIPRJMOD}/kicad_lceda.3dshapes/SMB_L4.6-W3.6-LS5.3-RD.wrl"
+    (offset (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
+)

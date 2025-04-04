@@ -1,0 +1,5 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "motherboard_v1")(type "KiCad")(uri "${KIPRJMOD}/Footprints & CAD/0_Motherboard_v1.pretty")(options "")(descr "")(disabled))
+  (lib (name "0_Motherboard_v1")(type "KiCad")(uri "${KIPRJMOD}/Footprints & CAD/0_Motherboard_v1.pretty")(options "")(descr ""))
+)
