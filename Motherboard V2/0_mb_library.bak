@@ -3013,7 +3013,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "0_Motherboard_v1:HDMI-TH_D-HDMIM19P-FC00"
 			(at 0.635 0 0)
 			(effects
 				(font

@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.762,
-          "height": 1.524,
-          "width": 1.524
+          "drill": 1.0,
+          "height": 1.7,
+          "width": 1.7
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -59,12 +59,27 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "shorting_items|28070000|221820000|101227ba-d5f2-4ec4-9936-5b9641c4674a|2004720d-4be8-4fb8-b88d-8150c150b661",
+        "shorting_items|28070000|224360000|d15b9fa4-64a6-4b33-bde3-a19003694d44|87925984-c357-49b4-a214-f303568c75f7",
+        "shorting_items|42460000|226050000|267897ba-dca1-493e-ab5e-9a01582ce51e|dc77abdd-0c04-4114-a37f-dcc70fb0103a",
+        "shorting_items|43310000|214200000|c232009d-4ced-48e7-ba24-98d7d29f6b4a|36845b25-333e-4c84-abb9-196684731262",
+        "shorting_items|43310000|216740000|41085a58-140b-4f0f-927e-9a7678677472|d90839b3-f379-497c-aa9b-26aac598d0c0",
+        "shorting_items|43310000|219280000|220f241e-9b4c-4b29-9700-71bf0f6d6150|bfcaf49f-7f66-42bc-abe3-217054002a6e",
+        "shorting_items|43310000|221820000|1bb7446f-7780-46b3-a9a2-ea32e368b299|23b0423d-b131-4fcb-8251-f06925366262",
+        "shorting_items|43310000|224360000|de4f429d-36e7-4fa3-919f-e4dc953ace78|43e52d33-2c12-4b05-9a7d-e8e7f279a269",
+        "shorting_items|97250000|214050000|49d37a77-d7c0-445b-ac53-f74c13432c41|4dc66e57-5617-4dec-aacd-792fe211ecad",
+        "shorting_items|97250000|216590000|c54baf3b-8c48-4316-a1bb-cd1351891ddf|9282f619-c4c3-440f-9d5c-5a47f47dc844",
+        "shorting_items|97250000|219130000|f5221ca3-585f-4a14-aa5a-70877dc06d2a|b73214b5-3d46-4425-a754-bb578df760d8",
+        "shorting_items|97250000|221670000|c0752113-1428-4cb5-a81f-8bd62987bebc|385db28d-4fc1-401f-a3a9-9895b3f87a7c",
+        "shorting_items|97250000|224210000|2b743d41-893d-46f7-99c4-1bf713017818|3ef392c3-7c2a-4f6f-869e-4e18e8399d94",
+        "shorting_items|97250000|226750000|9811d349-7060-40d2-843b-1678478f54bc|ec1f508c-ef5d-453b-851c-a4d76a644a60"
+      ],
       "meta": {
         "version": 2
       },
       "rule_severities": {
-        "annular_width": "warning",
+        "annular_width": "ignore",
         "clearance": "error",
         "connection_width": "warning",
         "copper_edge_clearance": "error",

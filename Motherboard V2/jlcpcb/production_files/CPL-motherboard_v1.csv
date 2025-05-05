@@ -1,135 +1,133 @@
 Designator,Val,Package,Mid X,Mid Y,Rotation,Layer
-C1,JST_SH_Conn_01x04_,JST_SH_BM04B-SRSS-TB_1x04-1MP_P1.00mm_Vertical,283.325,-258.0,-90.0,top
-C1-HP1-1,Conn_01x02,JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical,272.0,-103.041726,0.0,top
-C2,JST_SH_Conn_01x04_,JST_SH_BM04B-SRSS-TB_1x04-1MP_P1.00mm_Vertical,251.2,-219.2,0.0,top
-C2-HP2-1,Conn_01x02,JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical,272.0,-112.041726,0.0,top
-C3,JST_SH_Conn_01x04_,JST_SH_BM04B-SRSS-TB_1x04-1MP_P1.00mm_Vertical,17.19,-212.825,0.0,top
-C3-HP3-1,Conn_01x02,JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical,272.0,-120.55,0.0,top
-C4,JST_SH_Conn_01x04_,JST_SH_BM04B-SRSS-TB_1x04-1MP_P1.00mm_Vertical,283.325,-248.508274,-90.0,top
-C4-HP4-1,Conn_01x02,JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical,272.0,-129.55,0.0,top
-C5,JST_SH_Conn_01x04_,JST_SH_BM04B-SRSS-TB_1x04-1MP_P1.00mm_Vertical,70.25,-208.325,0.0,top
-C6,JST_SH_Conn_01x04_,JST_SH_BM04B-SRSS-TB_1x04-1MP_P1.00mm_Vertical,269.0,-142.491726,90.0,top
-C7,JST_SH_Conn_01x04_,JST_SH_BM04B-SRSS-TB_1x04-1MP_P1.00mm_Vertical,37.05,-286.6,180.0,top
-C8,470uF_50V,CP_Elec_10x10.5,383.55,-15.75,0.0,top
-C9,1uF_50V,C_0603_1608Metric,365.6076,-4.826,180.0,top
-C10,1uF_50V,C_0603_1608Metric,366.77,-23.84,90.0,top
-C11,1nF_2kV,C_1206_3216Metric,361.6,-35.5,-90.0,top
-C12,1nF_2kV,C_1206_3216Metric,366.0,-35.525,-90.0,top
-C13,100uF_10V,C_1206_3216Metric,364.275,-63.75,0.0,top
-C14,JST_SH_Conn_01x04_,JST_SH_BM04B-SRSS-TB_1x04-1MP_P1.00mm_Vertical,119.25,-208.425,180.0,top
-C15,JST_SH_Conn_01x04_,JST_SH_BM04B-SRSS-TB_1x04-1MP_P1.00mm_Vertical,380.0,-172.491726,180.0,top
-C16,JST_SH_Conn_01x04_,JST_SH_BM04B-SRSS-TB_1x04-1MP_P1.00mm_Vertical,389.0,-172.491726,180.0,top
-C17,JST_SH_Conn_01x04_,JST_SH_BM04B-SRSS-TB_1x04-1MP_P1.00mm_Vertical,283.325,-267.991726,-90.0,top
-C18,100nF_50V,C_0402_1005Metric_Pad0.74x0.62mm_HandSolder,346.777,-48.361,0.0,top
-C19,100nF_50V,C_0402_1005Metric_Pad0.74x0.62mm_HandSolder,89.701,-179.511,90.0,top
-C20,100nF_50V,C_0402_1005Metric_Pad0.74x0.62mm_HandSolder,270.279,-280.229,-90.0,top
-C21,100nF_50V,C_0402_1005Metric_Pad0.74x0.62mm_HandSolder,96.199,-46.059,180.0,top
-C22,100nF_50V,C_0402_1005Metric_Pad0.74x0.62mm_HandSolder,293.517,-177.359,-90.0,top
-C23,100nF_50V,C_0402_1005Metric_Pad0.74x0.62mm_HandSolder,54.429,-261.613,180.0,top
-D1,~,Diode_Board,191.933274,-115.491726,90.0,top
-D2,~,Diode_Board,221.766548,-115.491726,90.0,top
-D3,~,Diode_Board,250.933274,-115.491726,90.0,top
-D4,SMBJ7.0A,D_SMA,363.75,-60.75,0.0,top
-D5,SS3150_SMB,SMB_L4.6-W3.6-LS5.3-RD,81.73,-278.08,180.0,top
-D6,LED,LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder,328.545,-23.03,90.0,top
-D7,LED,LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder,398.115002,-16.94,90.0,top
-F1,Fuse 250V 8A,Fuse_holder,378.1,-86.5,-90.0,top
-F2,Fuse 250V 12A,Fuse_holder,351.7,-13.6475,0.0,top
-H1,MountingHole_Pad,Slot_Mounting_Hole,245.0,-90.0,0.0,top
-H2,MountingHole_Pad,Slot_Mounting_Hole,406.1,-242.65,0.0,top
-H3,MountingHole_Pad,Slot_Mounting_Hole,175.0,-150.0,0.0,top
-H4,MountingHole_Pad,Slot_Mounting_Hole,285.0,-175.0,0.0,top
-H5,MountingHole_Pad,Slot_Mounting_Hole,86.0,-170.0,0.0,top
-H6,MountingHole_Pad,Slot_Mounting_Hole,273.0,-52.0,0.0,top
-H7,MountingHole_Pad,Slot_Mounting_Hole,86.0,-88.0,0.0,top
-H8,MountingHole_Pad,Slot_Mounting_Hole,340.0,-128.0,0.0,top
-H9,MountingHole_Pad,Slot_Mounting_Hole,265.0,-290.0,0.0,top
-H10,MountingHole_Pad,Slot_Mounting_Hole,151.83,-290.87,0.0,top
-H11,MountingHole_Pad,Slot_Mounting_Hole,350.0,-52.0,0.0,top
-H12,MountingHole_Pad,Slot_Mounting_Hole,193.0,-52.0,0.0,top
-H13,MountingHole_Pad,Slot_Mounting_Hole,85.0,-42.0,0.0,top
-H14,MountingHole_Pad,Slot_Mounting_Hole,55.0,-245.0,0.0,top
-H15,High_Power_Heater_Mount,HPH_Board,309.6,-133.666726,0.0,top
-H16,Low_Power_Heater_Mount,Low_Power_Heater_Board,345.8,-244.576726,0.0,top
-HPHpower1,Conn_01x02,JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical,330.49,-166.346726,0.0,top
-J1,Conn_01x01,Test_Point_TH_BD3.2-D2.0,311.0,-40.0,0.0,top
-J1-Lock-in1,JST_SH_Conn_01x04_,JST_SH_BM04B-SRSS New,24.5,-45.325,180.0,top
-J2,Conn_01x01,Test_Point_TH_BD3.2-D2.0,325.8,-40.0,0.0,top
-J2-Diode1,JST_SH_Conn_01x04_,JST_SH_BM04B-SRSS New,212.4,-77.0,180.0,top
-J3,Conn_01x01,Test_Point_TH_BD3.2-D2.0,345.49,-28.07,90.0,top
-J3-Diode2,JST_SH_Conn_01x04_,JST_SH_BM04B-SRSS New,212.4,-67.0,180.0,top
-J4,Conn_01x01,Test_Point_TH_BD3.2-D2.0,353.63,-21.9,90.0,top
-J4-LowPower1,Conn_01x02,JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical,301.0,-198.041726,0.0,top
-J5-HighPower1,Conn_01x02,JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical,325.0,-93.041726,0.0,top
-J6-50K-Diode1,JST_SH_Conn_01x04_,JST_SH_BM04B-SRSS New,193.5,-67.0,180.0,top
-J7,Conn_01x03_Pin,PinHeader_1x03_P2.54mm_Vertical,83.235,-289.83,0.0,top
-J7-Lock-in2,JST_SH_Conn_01x04_,JST_SH_BM04B-SRSS New,38.5,-45.325,180.0,top
-J8,Conn_01x03_Pin,PinHeader_1x03_P2.54mm_Vertical,343.539,-51.49,180.0,top
-J8-Diode3,JST_SH_Conn_01x04_,JST_SH_BM04B-SRSS New,212.4,-57.0,180.0,top
-J9,Conn_01x03_Pin,PinHeader_1x03_P2.54mm_Vertical,86.003,-182.01,180.0,top
-J9-Diode4,JST_SH_Conn_01x04_,JST_SH_BM04B-SRSS New,212.4,-47.0,180.0,top
-J10,Conn_01x03_Pin,PinHeader_1x03_P2.54mm_Vertical,273.196,-283.645,-90.0,top
-J10-LowPower2,Conn_01x02,JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical,313.0,-198.041726,0.0,top
-J11,Conn_01x02,CONN-TH_436500215,352.7075,-172.234226,0.0,top
-J11-HighPower2,Conn_01x02,JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical,325.0,-84.041726,0.0,top
-J12,436500427,CON_436500427_MOL,349.260353,-41.685,0.0,top
-J12-3K-Diode1,JST_SH_Conn_01x04_,JST_SH_BM04B-SRSS New,193.5,-77.0,180.0,top
-J13,Conn_01x02,CONN-TH_436500215,366.7075,-172.274226,0.0,top
-J13-Lock-in3,JST_SH_Conn_01x04_,JST_SH_BM04B-SRSS New,52.5,-45.325,180.0,top
-J14,Conn_01x03_Pin,PinHeader_1x03_P2.54mm_Vertical,92.207,-43.034,0.0,top
-J14-Lock-in4,JST_SH_Conn_01x04_,JST_SH_BM04B-SRSS New,66.5,-45.325,180.0,top
-J15,Conn_01x03_Pin,PinHeader_1x03_P2.54mm_Vertical,290.913,-175.114,0.0,top
-J15-LowPower3,Conn_01x02,JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical,326.0,-198.041726,0.0,top
-J16,Conn_01x03_Pin,PinHeader_1x03_P2.54mm_Vertical,53.625,-256.322,0.0,top
-J16-Diode5,JST_SH_Conn_01x04_,JST_SH_BM04B-SRSS New,231.4,-77.0,180.0,top
-J17,Conn_01x03_Pin,PinHeader_1x03_P2.54mm_Vertical,91.825,-289.85,0.0,top
-J17-LowPower4,Conn_01x02,JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical,339.0,-198.041726,0.0,top
-J19-50K-Warmup1,Conn_01x02,JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical,360.0,-97.54,0.0,top
-J20-3K-Warmup1,Conn_01x02,JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical,360.0,-82.54,0.0,top
-J21-Lock-in5,JST_SH_Conn_01x04_,JST_SH_BM04B-SRSS New,105.5,-45.325,180.0,top
-J22-Diode6,JST_SH_Conn_01x04_,JST_SH_BM04B-SRSS New,231.2,-66.8,180.0,top
-J23-Diode7,JST_SH_Conn_01x04_,JST_SH_BM04B-SRSS New,231.4,-57.0,180.0,top
-J24-LowPower5,Conn_01x02,JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical,352.0,-198.041726,0.0,top
-J25-HighPower3,Conn_01x02,JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical,325.0,-75.041726,0.0,top
-J26-Lock-in6,JST_SH_Conn_01x04_,JST_SH_BM04B-SRSS New,120.5,-45.325,180.0,top
-J27-Lock-in7,JST_SH_Conn_01x04_,JST_SH_BM04B-SRSS New,135.5,-45.325,180.0,top
-J28-Diode8,JST_SH_Conn_01x04_,JST_SH_BM04B-SRSS New,231.4,-47.0,180.0,top
-J29-Diode9,JST_SH_Conn_01x04_,JST_SH_BM04B-SRSS New,249.2,-77.0,180.0,top
-J30-LowPower6,Conn_01x02,JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical,365.0,-198.041726,0.0,top
-J31-HighPower4,Conn_01x02,JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical,309.0,-84.041726,0.0,top
-J32-Lock-in8,JST_SH_Conn_01x04_,JST_SH_BM04B-SRSS New,150.5,-45.325,180.0,top
-J33-Diode10,JST_SH_Conn_01x04_,JST_SH_BM04B-SRSS New,249.2,-66.8,180.0,top
-J34-Diode11,JST_SH_Conn_01x04_,JST_SH_BM04B-SRSS New,249.2,-57.0,180.0,top
-J35-LowPower7,Conn_01x02,JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical,378.0,-198.041726,0.0,top
-J36-HighPower5,Conn_01x02,JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical,309.1,-92.716726,0.0,top
-J37-Diode12,JST_SH_Conn_01x04_,JST_SH_BM04B-SRSS New,249.2,-47.0,180.0,top
-J38-LowPower8,Conn_01x02,JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical,391.0,-198.041726,0.0,top
-J39-Lockin-in9,JST_SH_Conn_01x04_,JST_SH_BM04B-SRSS New,128.0,-37.0,180.0,top
-J98,Conn_01x03_Pin,PinHeader_1x03_P2.54mm_Vertical,176.525,-47.0,90.0,top
-J99,Conn_01x03_Pin,PinHeader_1x03_P2.54mm_Vertical,164.525,-47.0,90.0,top
-J100,Conn_01x02,JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical,296.975,-291.775,0.0,top
-J101,Conn_01x02,JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical,114.475,-290.575,0.0,top
-L1,~,Lockin_board,46.0,-135.5,90.0,top
-L2,~,Lockin_board,126.2,-135.5,90.0,top
-L3,L_Iron,IND-SMD_L7.1-W6.6,372.2175,-17.1,-90.0,top
-M1,~,i2c_Mux,250.5,-169.95,0.0,top
-M2,~,Uart Mux,167.0,-254.0,180.0,top
-q1,~,Microcontroller-qtpy,35.715,-221.15,180.0,top
-q2,~,Microcontroller-qtpy,89.655,-221.0,180.0,top
-q3,~,Microcontroller-qtpy,15.205,-278.6,0.0,top
-q4,~,Microcontroller-qtpy,68.705,-285.6,0.0,top
-q5,Conn_01x07,PinSocket_1x07_P2.54mm_Vertical,-44.56,-239.995,0.0,top
-q6,Conn_01x07,PinSocket_1x07_P2.54mm_Vertical,-35.36,-239.995,0.0,top
-q7,Conn_01x07,PinSocket_1x07_P2.54mm_Vertical,-39.96,-239.995,0.0,top
-q8,Conn_01x07,PinSocket_1x07_P2.54mm_Vertical,-30.76,-239.995,0.0,top
-R1,200,R_0402_1005Metric,328.665,-19.705,-90.0,top
-R2,2100,R_0402_1005Metric,398.085002,-13.955,-90.0,top
-R3,200,R_0402_1005Metric,308.875,-166.605,0.0,top
-RV1,14D560K_Varistor,RES-TH_L17.0-W5.0-P7.50-D1.2,383.24,-6.203,0.0,top
-U1,TDK30-24S05W,PWRM-TH_TDK30-XXSXX,381.58,-47.7,-90.0,top
-U2,PhotoMos,HPH_Switch_SOP-4_L4.4-W4.3-P2.54-LS6.8-BL,315.940001,-165.3,-90.0,top
-UartMux1,Conn_01x02,JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical,219.55,-236.0,90.0,top
-UartMux2,Conn_01x02,JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical,219.55,-246.0,90.0,top
-W1,~,Warmup circuit,370.434,-135.055726,180.0,top
-WU_D_GND1,Conn_01x02,JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical,397.625,-173.475,0.0,top
-WU_D_GND2,Conn_01x02,JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical,397.625,-180.425,0.0,top
+C1,JST_SH_Conn_01x04_,JST_SH_BM04B-SRSS-TB_1x04-1MP_P1.00mm_Vertical,380.0,-170.641726,180.0,top
+C1-HP1-1,Conn_01x02,JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical,272.0,-100.641726,0.0,top
+C10,JST_SH_Conn_01x04_,JST_SH_BM04B-SRSS-TB_1x04-1MP_P1.00mm_Vertical,283.325,-246.658274,-90.0,top
+C11,JST_SH_Conn_01x04_,JST_SH_BM04B-SRSS-TB_1x04-1MP_P1.00mm_Vertical,70.25,-206.475,0.0,top
+C12,470uF_50V,CP_Elec_10x10.5,383.55,-13.9,0.0,top
+C13,1uF_50V,C_0603_1608Metric,365.6076,-2.976,180.0,top
+C14,1uF_50V,C_0603_1608Metric,366.77,-21.99,90.0,top
+C15,1nF_2kV,C_1206_3216Metric,361.6,-33.65,-90.0,top
+C16,1nF_2kV,C_1206_3216Metric,366.0,-33.675,-90.0,top
+C17,100uF_10V,C_1206_3216Metric,364.275,-61.9,0.0,top
+C18,100nF_50V,C_0402_1005Metric_Pad0.74x0.62mm_HandSolder,346.777,-46.511,180.0,top
+C19,100nF_50V,C_0402_1005Metric_Pad0.74x0.62mm_HandSolder,89.701,-177.661,90.0,top
+C2,JST_SH_Conn_01x04_,JST_SH_BM04B-SRSS-TB_1x04-1MP_P1.00mm_Vertical,283.325,-256.15,-90.0,top
+C2-HP2-1,Conn_01x02,JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical,272.0,-109.641726,0.0,top
+C20,100nF_50V,C_0402_1005Metric_Pad0.74x0.62mm_HandSolder,270.279,-278.379,-90.0,top
+C21,100nF_50V,C_0402_1005Metric_Pad0.74x0.62mm_HandSolder,75.0,-39.0,-90.0,top
+C22,100nF_50V,C_0402_1005Metric_Pad0.74x0.62mm_HandSolder,293.517,-175.509,-90.0,top
+C23,100nF_50V,C_0402_1005Metric_Pad0.74x0.62mm_HandSolder,54.429,-259.763,180.0,top
+C3,JST_SH_Conn_01x04_,JST_SH_BM04B-SRSS-TB_1x04-1MP_P1.00mm_Vertical,119.25,-206.575,180.0,top
+C3-HP3-1,Conn_01x02,JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical,272.0,-118.15,0.0,top
+C4,JST_SH_Conn_01x04_,JST_SH_BM04B-SRSS-TB_1x04-1MP_P1.00mm_Vertical,389.0,-170.641726,180.0,top
+C4-HP4-1,Conn_01x02,JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical,272.0,-127.15,0.0,top
+C5,JST_SH_Conn_01x04_,JST_SH_BM04B-SRSS-TB_1x04-1MP_P1.00mm_Vertical,37.05,-284.75,180.0,top
+C6,JST_SH_Conn_01x04_,JST_SH_BM04B-SRSS-TB_1x04-1MP_P1.00mm_Vertical,251.2,-217.35,0.0,top
+C7,JST_SH_Conn_01x04_,JST_SH_BM04B-SRSS-TB_1x04-1MP_P1.00mm_Vertical,17.19,-210.975,0.0,top
+C8,JST_SH_Conn_01x04_,JST_SH_BM04B-SRSS-TB_1x04-1MP_P1.00mm_Vertical,269.0,-140.641726,90.0,top
+C9,JST_SH_Conn_01x04_,JST_SH_BM04B-SRSS-TB_1x04-1MP_P1.00mm_Vertical,283.325,-266.141726,-90.0,top
+D1,SS3150_SMB,SMB_L4.6-W3.6-LS5.3-RD,81.73,-276.23,180.0,top
+D2,~,Diode_Board,250.933274,-113.641726,90.0,top
+D3,~,Diode_Board,221.766548,-113.641726,90.0,top
+D4,~,Diode_Board,191.933274,-113.641726,90.0,top
+D5,LED,LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder,398.115002,-15.09,90.0,top
+D6,LED,LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder,328.545,-21.18,90.0,top
+D7,SMBJ7.0A,D_SMA,363.75,-58.9,0.0,top
+DC1,DC-044K-D025,barrel_jack_DC-IN-TH_DC-044K-D025,352.93,-6.78,-90.0,top
+F1,Fuse 250V 12A,Fuse_holder,349.7,-19.0,0.0,top
+F2,Fuse 250V 8A,Fuse_holder,378.1,-84.65,-90.0,top
+H1,MountingHole_Pad,Slot_Mounting_Hole,85.05,-40.15,0.0,top
+H10,MountingHole_Pad,Slot_Mounting_Hole,406.15,-240.8,0.0,top
+H11,MountingHole_Pad,Slot_Mounting_Hole,285.05,-173.15,0.0,top
+H12,MountingHole_Pad,Slot_Mounting_Hole,273.05,-50.15,0.0,top
+H13,MountingHole_Pad,Slot_Mounting_Hole,340.05,-126.15,0.0,top
+H14,MountingHole_Pad,Slot_Mounting_Hole,151.88,-289.02,0.0,top
+H15,Low_Power_Heater_Mount,Low_Power_Heater_Board,345.8,-251.741726,0.0,top
+H16,High_Power_Heater_Mount,HPH_Board,309.6,-131.816726,0.0,top
+H2,MountingHole_Pad,Slot_Mounting_Hole,350.05,-50.15,0.0,top
+H3,MountingHole_Pad,Slot_Mounting_Hole,245.05,-88.15,0.0,top
+H4,MountingHole_Pad,Slot_Mounting_Hole,175.05,-148.15,0.0,top
+H5,MountingHole_Pad,Slot_Mounting_Hole,86.05,-168.15,0.0,top
+H6,MountingHole_Pad,Slot_Mounting_Hole,86.05,-86.15,0.0,top
+H7,MountingHole_Pad,Slot_Mounting_Hole,265.05,-288.15,0.0,top
+H8,MountingHole_Pad,Slot_Mounting_Hole,55.05,-243.15,0.0,top
+H9,MountingHole_Pad,Slot_Mounting_Hole,193.05,-50.15,0.0,top
+HPHpower1,Conn_01x02,JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical,330.49,-163.946726,0.0,top
+J1,HDMI_A_1.4,HDMI-TH_D-HDMIM19P-FC00,16.9,-6.0,180.0,top
+J10,Conn_01x02,CONN-TH_436500215,352.5,-171.469226,0.0,top
+J11,Conn_01x02,CONN-TH_436500215,366.5,-171.509226,0.0,top
+J12,Conn_01x03_Pin,PinHeader_1x03_P2.54mm_Vertical,91.825,-288.015,0.0,top
+J13,Conn_01x03_Pin,PinHeader_1x03_P2.54mm_Vertical,83.235,-287.995,0.0,top
+J14,JST_SH_Conn_01x04_Extra,JST_SH_BM04B-SRSS-TB_1x04-1MP_P1.00mm_Vertical,115.55,-51.425,0.0,top
+J15,Conn_01x01,Test_Point_TH_BD3.2-D2.0,348.0,-31.0,90.0,top
+J16,Conn_01x01,Test_Point_TH_BD3.2-D2.0,339.86,-37.17,90.0,top
+J17,Conn_01x02,JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical,296.975,-289.375,0.0,top
+J18,Conn_01x02,JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical,114.475,-288.175,0.0,top
+J19,JST_SH_Conn_01x04_D HEad,JST_SH_BM04B-SRSS-TB_1x04-1MP_P1.00mm_Vertical,128.5,-35.675,0.0,top
+J2,HDMI_A_1.4,HDMI-TH_D-HDMIM19P-FC00,55.0,-6.0,180.0,top
+J20,JST_SH_Conn_01x04_3Head B,JST_SH_BM04B-SRSS-TB_1x04-1MP_P1.00mm_Vertical,57.2,-45.2,0.0,top
+J21,JST_SH_Conn_01x04_3Head A,JST_SH_BM04B-SRSS-TB_1x04-1MP_P1.00mm_Vertical,33.2,-45.2,0.0,top
+J22,JST_SH_Conn_01x04_Still,JST_SH_BM04B-SRSS-TB_1x04-1MP_P1.00mm_Vertical,128.5,-44.675,0.0,top
+J23,JST_SH_Conn_01x04_4Head B,JST_SH_BM04B-SRSS-TB_1x04-1MP_P1.00mm_Vertical,57.2,-53.7,0.0,top
+J24,JST_SH_Conn_01x04_4Head A,JST_SH_BM04B-SRSS-TB_1x04-1MP_P1.00mm_Vertical,33.2,-53.725,0.0,top
+J25,JST_SH_Conn_01x04_4Pump Diode B,JST_SH_BM04B-SRSS-TB_1x04-1MP_P1.00mm_Vertical,221.0,-58.2,0.0,top
+J26,JST_SH_Conn_01x04_4Pump Diode A,JST_SH_BM04B-SRSS-TB_1x04-1MP_P1.00mm_Vertical,190.0,-58.2,0.0,top
+J27,JST_SH_Conn_01x04_3Pump Diode B,JST_SH_BM04B-SRSS-TB_1x04-1MP_P1.00mm_Vertical,221.0,-67.2,0.0,top
+J28,JST_SH_Conn_01x04_3Pump Diode A,JST_SH_BM04B-SRSS-TB_1x04-1MP_P1.00mm_Vertical,190.0,-67.2,0.0,top
+J29,JST_SH_Conn_01x04_Condenser,JST_SH_BM04B-SRSS-TB_1x04-1MP_P1.00mm_Vertical,128.5,-54.675,0.0,top
+J3,HDMI_A_1.4,HDMI-TH_D-HDMIM19P-FC00,93.1,-6.0,180.0,top
+J30,JST_SH_Conn_01x04_4Switch Diode B,JST_SH_BM04B-SRSS-TB_1x04-1MP_P1.00mm_Vertical,221.0,-76.2,0.0,top
+J31,JST_SH_Conn_01x04_4Switch Diode A,JST_SH_BM04B-SRSS-TB_1x04-1MP_P1.00mm_Vertical,190.0,-76.2,0.0,top
+J32,Conn_01x02_Still Heater,JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical,341.0,-196.0,0.0,top
+J33,JST_SH_Conn_01x04_3Switch Diode B,JST_SH_BM04B-SRSS-TB_1x04-1MP_P1.00mm_Vertical,221.0,-85.2,0.0,top
+J34,JST_SH_Conn_01x04_3Switch Diode A,JST_SH_BM04B-SRSS-TB_1x04-1MP_P1.00mm_Vertical,190.0,-85.2,0.0,top
+J35,Conn_01x02_15 pin Extra,JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical,351.0,-196.0,0.0,top
+J36,Conn_01x02_4SwitchHeater B,JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical,321.0,-196.0,0.0,top
+J37,Conn_01x02_4SwitchHeater A,JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical,301.0,-196.0,0.0,top
+J38,Conn_01x02_3SwitchHeater B,JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical,331.0,-196.0,0.0,top
+J39,Conn_01x02_3SwitchHeater A,JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical,311.0,-196.0,0.0,top
+J4,HDMI_A_1.4,HDMI-TH_D-HDMIM19P-FC00,131.2,-6.0,180.0,top
+J40,JST_SH_Conn_01x04_40K Diode,JST_SH_BM04B-SRSS-TB_1x04-1MP_P1.00mm_Vertical,251.5,-63.675,0.0,top
+J41,Conn_01x02_4PumpHeater B,JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical,321.0,-83.0,0.0,top
+J42,Conn_01x02_4PumpHeater A,JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical,297.0,-82.0,0.0,top
+J43,JST_SH_Conn_01x04_4K Diode,JST_SH_BM04B-SRSS-TB_1x04-1MP_P1.00mm_Vertical,251.5,-73.675,0.0,top
+J44,Conn_01x02_3PumpHeater B,JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical,321.0,-92.0,0.0,top
+J45,Conn_01x02_3PumpHeater A,JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical,297.0,-92.0,0.0,top
+J46,JST_SH_Conn_01x04_Extra,JST_SH_BM04B-SRSS-TB_1x04-1MP_P1.00mm_Vertical,251.65,-55.35,0.0,top
+J5,HDMI_A_1.4,HDMI-TH_D-HDMIM19P-FC00,169.3,-6.0,180.0,top
+J50,Conn_01x01,Test_Point_TH_BD3.2-D2.0,325.8,-38.15,0.0,top
+J51,Conn_01x01,Test_Point_TH_BD3.2-D2.0,311.0,-38.15,0.0,top
+J52,Conn_01x03_Pin,PinHeader_1x03_P2.54mm_Vertical,343.539,-49.625,180.0,top
+J53,Conn_01x03_Pin,PinHeader_1x03_P2.54mm_Vertical,86.003,-180.145,180.0,top
+J54,Conn_01x03_Pin,PinHeader_1x03_P2.54mm_Vertical,273.181,-281.795,-90.0,top
+J55,Conn_01x03_Pin,PinHeader_1x03_P2.54mm_Vertical,79.0,-40.46,0.0,top
+J56,Conn_01x03_Pin,PinHeader_1x03_P2.54mm_Vertical,290.913,-173.279,0.0,top
+J57,Conn_01x03_Pin,PinHeader_1x03_P2.54mm_Vertical,53.625,-254.487,0.0,top
+J6,HDMI_A_1.4,HDMI-TH_D-HDMIM19P-FC00,207.4,-6.0,180.0,top
+J7,HDMI_A_1.4,HDMI-TH_D-HDMIM19P-FC00,245.5,-6.0,180.0,top
+J8,HDMI_A_1.4,HDMI-TH_D-HDMIM19P-FC00,283.6,-6.0,180.0,top
+J9,HDMI_A_1.4,HDMI-TH_D-HDMIM19P-FC00,321.7,-6.0,180.0,top
+L1,~,Lockin_board,46.0,-133.65,90.0,top
+L2,~,Lockin_board,126.2,-133.65,90.0,top
+L3,L_Iron,IND-SMD_L7.1-W6.6,372.2175,-15.25,-90.0,top
+M1,~,Uart Mux,168.9,-258.15,180.0,top
+M2,~,i2c_Mux,220.5,-185.6,0.0,top
+R1,2100,R_0402_1005Metric,398.085002,-12.105,-90.0,top
+R2,200,R_0402_1005Metric,328.665,-17.855,-90.0,top
+R3,200,R_0402_1005Metric,308.875,-164.755,0.0,top
+RV1,14D560K_Varistor,RES-TH_L17.0-W5.0-P7.50-D1.2,383.24,-4.353,0.0,top
+U1,PhotoMos,HPH_Switch_SOP-4_L4.4-W4.3-P2.54-LS6.8-BL,315.940001,-163.45,-90.0,top
+U2,TDK30-24S05W,PWRM-TH_TDK30-XXSXX,381.58,-45.85,-90.0,top
+UartMux1,Conn_01x02,JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical,219.0,-234.15,90.0,top
+UartMux2,Conn_01x02,JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical,219.0,-244.15,90.0,top
+W1,~,Warmup circuit,370.5,-133.141726,180.0,top
+WU_D_GND1,Conn_01x02,JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical,397.625,-171.075,0.0,top
+WU_D_GND2,Conn_01x02,JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical,397.625,-178.025,0.0,top
+q1,~,Microcontroller-qtpy,15.23,-276.77,0.0,top
+q10,Conn_01x07,PinSocket_1x07_P2.54mm_Vertical,43.31,-219.28,180.0,top
+q2,~,Microcontroller-qtpy,68.73,-283.77,0.0,top
+q3,~,Microcontroller-qtpy,35.69,-219.28,180.0,top
+q4,Conn_01x07,PinSocket_1x07_P2.54mm_Vertical,82.01,-219.13,180.0,top
+q7,~,Microcontroller-qtpy,89.63,-219.13,180.0,top
+q8,Conn_01x07,PinSocket_1x07_P2.54mm_Vertical,97.25,-219.13,180.0,top
+q9,Conn_01x07,PinSocket_1x07_P2.54mm_Vertical,28.07,-219.28,180.0,top

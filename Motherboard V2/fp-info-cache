@@ -1,4 +1,4 @@
-23829714347863360
+23831459617492227
 0_Motherboard_v1
 CONN D-SUB PLUG 50POS RA SLDR
 
@@ -188,6 +188,13 @@ Warmup circuit
 0
 4
 1
+0_Motherboard_v1
+barrel_jack_DC-IN-TH_DC-044K-D025
+
+
+0
+6
+5
 0_Motherboard_v1
 i2c_Mux
 
